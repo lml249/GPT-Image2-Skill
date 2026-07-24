@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Added automatic reuse of the active CC Switch / Codex provider in the bundled Skill launcher when no process, project `.env`, or home `.env` API key is declared.
+- Bound fallback tokens to their provider base URL, restricted external endpoints to HTTPS, allowed loopback HTTP for local gateways, and kept credentials out of output and files.
+- Added focused regression tests for credential precedence, malformed or incomplete provider configuration, endpoint safety, and mismatched base-URL replacement.
+- Pointed standalone Skill launcher and installation examples at this public fork so transient fallback execution retains the adapter.
 - Clarified the GPT Image skill as a gallery-first, CLI-first agent runbook: analyze user prompts, search Reference Gallery/craft files, confer when useful, then invoke the packaged CLI.
 - Added safer install and API-key guidance: check existing CLI/skill state first, avoid blind reinstall/overwrite, keep global/shared installs opt-in, and never write secrets unless explicitly requested.
 - Updated cross-agent installation wording for Codex, OpenClaw, Claude Code, and manual skill runtimes.

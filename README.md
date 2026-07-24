@@ -113,7 +113,7 @@ Open Codex and invoke the built-in installer with this GitHub skill-folder URL:
 ```text
 $skill-installer
 Install this skill from GitHub:
-https://github.com/wuyoscar/gpt_image_2_skill/tree/main/skills/gpt-image
+https://github.com/lml249/GPT-Image2-Skill/tree/main/skills/gpt-image
 ```
 
 The installer downloads that GitHub folder and places it under your Codex skills directory, usually:
@@ -127,8 +127,8 @@ Restart Codex after installation so the new `$gpt-image` skill is loaded.
 If you prefer to install it manually, copy the skill folder into Codex's skills directory:
 
 ```bash
-git clone https://github.com/wuyoscar/gpt_image_2_skill.git
-cd gpt_image_2_skill
+git clone https://github.com/lml249/GPT-Image2-Skill.git
+cd GPT-Image2-Skill
 
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
 test -e "${CODEX_HOME:-$HOME/.codex}/skills/gpt-image" && echo "gpt-image skill already exists; stop before overwriting" && exit 1
@@ -144,11 +144,11 @@ For runtimes supported by the cross-agent `skills` installer, install the same `
 
 ```bash
 # Codex
-npx --yes skills@latest add wuyoscar/gpt_image_2_skill \
+npx --yes skills@latest add lml249/GPT-Image2-Skill \
   --skill gpt-image --agent codex --copy
 
 # OpenClaw
-npx --yes skills@latest add wuyoscar/gpt_image_2_skill \
+npx --yes skills@latest add lml249/GPT-Image2-Skill \
   --skill gpt-image --agent openclaw --copy
 ```
 
@@ -164,8 +164,8 @@ If your runtime is not listed by `skills@latest` yet, use the manual Agent Skill
 Set `AGENT_SKILLS_DIR` to the skills directory used by your agent runtime, then symlink this repo's skill folder into it.
 
 ```bash
-git clone https://github.com/wuyoscar/gpt_image_2_skill.git
-cd gpt_image_2_skill
+git clone https://github.com/lml249/GPT-Image2-Skill.git
+cd GPT-Image2-Skill
 
 # Choose the skill directory for your runtime.
 # Examples:
@@ -184,10 +184,10 @@ ln -s "$PWD/skills/gpt-image" "$AGENT_SKILLS_DIR/gpt-image"
 <summary><strong>CLI</strong></summary>
 
 ```bash
-uvx --from git+https://github.com/wuyoscar/gpt_image_2_skill gpt-image -p "a cat astronaut"
+uvx --from git+https://github.com/lml249/GPT-Image2-Skill gpt-image -p "a cat astronaut"
 
 # or install to PATH if not already installed
-command -v gpt-image >/dev/null || uv tool install git+https://github.com/wuyoscar/gpt_image_2_skill
+command -v gpt-image >/dev/null || uv tool install git+https://github.com/lml249/GPT-Image2-Skill
 gpt-image -p "a cat astronaut"
 ```
 
@@ -200,7 +200,7 @@ gpt-image -p "a cat astronaut"
 # plugin: use Claude Code's update flow
 # codex skill: rerun the installer
 # manual git clone
-cd gpt_image_2_skill && git pull
+cd GPT-Image2-Skill && git pull
 
 # CLI
 uv tool upgrade gpt-image-cli
@@ -208,9 +208,30 @@ uv tool upgrade gpt-image-cli
 
 </details>
 
-Reads `OPENAI_API_KEY` from process env, then `.env`, then `~/.env` without overriding an already-set env var.
+### Fork addition: reuse the current CC Switch / Codex provider
 
-> **Agent + API-key note.** Codex also has its own built-in image-generation skill, but that path is black-box and cannot be edited here; Codex users can switch to it if they prefer. Thanks to the related issue discussion for the simple safety tip: if you do not want an agent to accidentally use your OpenAI API key, run `unset OPENAI_API_KEY` before invoking the local CLI/skill.
+This fork adds automatic current-provider reuse to the bundled `skills/gpt-image/scripts/generate.py` launcher. Credential priority is:
+
+1. Process `OPENAI_API_KEY`
+2. Project `.env`
+3. `~/.env`
+4. The active provider in `${CODEX_HOME:-~/.codex}/config.toml`
+
+The Codex fallback requires the active provider to define both `experimental_bearer_token` and `base_url`. The launcher always applies the pair together, accepts external endpoints only over HTTPS, and permits plain HTTP only for `localhost`, `127.0.0.1`, or `::1`. It never prints or persists the token.
+
+Use the bundled launcher to activate this behavior:
+
+```bash
+uv run skills/gpt-image/scripts/generate.py -p "a cat astronaut" --quality low
+```
+
+Set a deliberately blank process variable to disable the fallback for one call:
+
+```bash
+OPENAI_API_KEY="" uv run skills/gpt-image/scripts/generate.py -p "a cat astronaut"
+```
+
+> **Cost note.** A successful call may bill the account or provider represented by the selected credential.
 
 ---
 

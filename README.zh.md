@@ -103,7 +103,7 @@ Codex 内置了 `$skill-installer`、`$skill-creator` 等 Skill 管理工具。
 ```text
 $skill-installer
 Install this skill from GitHub:
-https://github.com/wuyoscar/gpt_image_2_skill/tree/main/skills/gpt-image
+https://github.com/lml249/GPT-Image2-Skill/tree/main/skills/gpt-image
 ```
 
 安装器会下载这个 GitHub 文件夹，并放到你的 Codex skills 目录，通常是：
@@ -117,8 +117,8 @@ https://github.com/wuyoscar/gpt_image_2_skill/tree/main/skills/gpt-image
 如果你想手动安装，可以把 skill 文件夹复制到 Codex 的 skills 目录：
 
 ```bash
-git clone https://github.com/wuyoscar/gpt_image_2_skill.git
-cd gpt_image_2_skill
+git clone https://github.com/lml249/GPT-Image2-Skill.git
+cd GPT-Image2-Skill
 
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
 test -e "${CODEX_HOME:-$HOME/.codex}/skills/gpt-image" && echo "gpt-image skill already exists; stop before overwriting" && exit 1
@@ -134,11 +134,11 @@ cp -R skills/gpt-image "${CODEX_HOME:-$HOME/.codex}/skills/"
 
 ```bash
 # Codex
-npx --yes skills@latest add wuyoscar/gpt_image_2_skill \
+npx --yes skills@latest add lml249/GPT-Image2-Skill \
   --skill gpt-image --agent codex --copy
 
 # OpenClaw
-npx --yes skills@latest add wuyoscar/gpt_image_2_skill \
+npx --yes skills@latest add lml249/GPT-Image2-Skill \
   --skill gpt-image --agent openclaw --copy
 ```
 
@@ -154,8 +154,8 @@ npx --yes skills@latest add wuyoscar/gpt_image_2_skill \
 把 `AGENT_SKILLS_DIR` 设置为你的 Agent 运行时所使用的 skills 目录，然后把本仓库的 skill 文件夹软链接进去。
 
 ```bash
-git clone https://github.com/wuyoscar/gpt_image_2_skill.git
-cd gpt_image_2_skill
+git clone https://github.com/lml249/GPT-Image2-Skill.git
+cd GPT-Image2-Skill
 
 # 选择你的运行时对应的 skills 目录。
 # 示例：
@@ -174,10 +174,10 @@ ln -s "$PWD/skills/gpt-image" "$AGENT_SKILLS_DIR/gpt-image"
 <summary><strong>CLI</strong></summary>
 
 ```bash
-uvx --from git+https://github.com/wuyoscar/gpt_image_2_skill gpt-image -p "a cat astronaut"
+uvx --from git+https://github.com/lml249/GPT-Image2-Skill gpt-image -p "a cat astronaut"
 
 # 或在尚未安装时安装到 PATH
-command -v gpt-image >/dev/null || uv tool install git+https://github.com/wuyoscar/gpt_image_2_skill
+command -v gpt-image >/dev/null || uv tool install git+https://github.com/lml249/GPT-Image2-Skill
 gpt-image -p "a cat astronaut"
 ```
 
@@ -190,7 +190,7 @@ gpt-image -p "a cat astronaut"
 # 插件：使用 Claude Code 的更新流程
 # codex 技能：重新运行安装器
 # 手动 git 克隆方式
-cd gpt_image_2_skill && git pull
+cd GPT-Image2-Skill && git pull
 
 # CLI
 uv tool upgrade gpt-image-cli
@@ -198,9 +198,30 @@ uv tool upgrade gpt-image-cli
 
 </details>
 
-按 process env、`.env`、`~/.env` 的顺序读取 `OPENAI_API_KEY`，且不会覆盖已经设置好的环境变量。
+### 本 fork 新增：复用 CC Switch / Codex 当前 Provider
 
-> **Agent 与 API Key 提醒。** 我们发现 Codex 其实自带生成 Image 的 skill，但它是黑盒的，无法在这里修改；Codex 用户如果更想走内置能力，可以自行切换。也感谢相关 issue 里提到的方法：如果你不想让 agent accidentally 调用你的 OpenAI API Key，直接在调用本地 CLI/Skill 前运行 `unset OPENAI_API_KEY` 即可。
+本 fork 为 `skills/gpt-image/scripts/generate.py` 启动器增加了当前 Provider 自动复用。凭据优先级如下：
+
+1. 进程环境变量 `OPENAI_API_KEY`
+2. 项目目录 `.env`
+3. `~/.env`
+4. `${CODEX_HOME:-~/.codex}/config.toml` 中当前启用的 Provider
+
+Codex 回退要求当前 Provider 同时提供 `experimental_bearer_token` 和 `base_url`。启动器始终成对采用它们；外部端点只接受 HTTPS，HTTP 仅允许 `localhost`、`127.0.0.1` 或 `::1`。启动器不会打印或持久化 token。
+
+通过本 Skill 自带的启动器启用这个行为：
+
+```bash
+uv run skills/gpt-image/scripts/generate.py -p "a cat astronaut" --quality low
+```
+
+如需对单次调用禁用回退，可显式传入空的进程变量：
+
+```bash
+OPENAI_API_KEY="" uv run skills/gpt-image/scripts/generate.py -p "a cat astronaut"
+```
+
+> **费用提醒。** 成功调用可能会向所选凭据对应的账号或 Provider 计费。
 
 ---
 

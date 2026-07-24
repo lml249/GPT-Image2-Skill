@@ -20,5 +20,7 @@ When reporting, include:
 ## Secret handling
 
 - Never commit `OPENAI_API_KEY`, `.env`, or other credentials.
-- The CLI reads `OPENAI_API_KEY` from process env, then `.env`, then `~/.env` without overriding an already-set env var.
+- The Skill launcher prefers process `OPENAI_API_KEY`, project `.env`, and `~/.env` before considering the current Codex provider.
+- Codex-provider fallback uses a token only with the same provider's validated base URL. External URLs require HTTPS; loopback HTTP is allowed for local gateways.
+- Provider credentials are read in memory from `${CODEX_HOME:-~/.codex}/config.toml` and must never be printed or persisted elsewhere.
 - Generated examples and issue reports should not include private prompts, private images, or API response bodies containing secrets.

@@ -1,13 +1,14 @@
 ---
 name: gpt-image
 description: "Use this skill whenever a user asks to generate, create, draw, render, or edit images with GPT Image 2 / gpt-image-2, text-to-image, reference-image editing, inpainting, posters, typography, Chinese text, UI mockups, diagrams, or gallery prompts. Analyze the user's prompt, search the bundled Reference Gallery/craft files for matching design patterns, confer on direction when useful, then call the packaged `gpt-image` CLI or bundled `scripts/generate.py`. Do not write new image-generation code unless explicitly asked to modify this repo."
-compatibility: "Requires Python 3.11+ and either `gpt-image`, `uv`, or `uvx`. CLI/API calls read `OPENAI_API_KEY` and may incur OpenAI API charges."
-metadata: {"openclaw":{"requires":{"anyBins":["gpt-image","uv","uvx"]},"primaryEnv":"OPENAI_API_KEY","homepage":"https://github.com/wuyoscar/gpt_image_2_skill"}}
+metadata: {"openclaw":{"requires":{"anyBins":["gpt-image","uv","uvx"]},"primaryEnv":"OPENAI_API_KEY","homepage":"https://github.com/lml249/GPT-Image2-Skill"}}
 ---
 
 # gpt-image
 
 Agent runbook for GPT Image 2 generation/editing. Use the prompt library + packaged CLI. Do not reimplement image API code.
+
+Requires Python 3.11+ and either `gpt-image`, `uv`, or `uvx`. API calls use `OPENAI_API_KEY` or the current Codex provider and may incur API charges.
 
 ## Operating loop
 
@@ -27,24 +28,27 @@ Fast path: precise prompt + explicit “generate now” → quick reference/craf
 Preferred call order:
 
 ```bash
-# Existing CLI on PATH
-gpt-image -p "PROMPT" [-f OUT] [-i REF...] [-m MASK] [options]
-
-# Installed skill folder; use runtime-provided skill path when available
+# Installed skill folder; use this path for automatic Codex-provider reuse
 uv run "$SKILL_DIR/scripts/generate.py" -p "PROMPT" [-f OUT] [-i REF...] [-m MASK] [options]
 
+# Existing CLI on PATH when OPENAI_API_KEY is already configured
+gpt-image -p "PROMPT" [-f OUT] [-i REF...] [-m MASK] [options]
+
 # Direct transient CLI when the user requested setup/one-off CLI execution
-uvx --from git+https://github.com/wuyoscar/gpt_image_2_skill gpt-image -p "PROMPT" [options]
+uvx --from git+https://github.com/lml249/GPT-Image2-Skill gpt-image -p "PROMPT" [options]
 ```
 
 `scripts/generate.py` is a launcher: repo-local `src/gpt_image_cli` → installed `gpt-image` → PATH `gpt-image` → transient `uvx`/`uv` fallback.
 
 ## Key and cost rules
 
-- CLI reads `OPENAI_API_KEY` from process env, then `.env`, then `~/.env` without overriding existing env; successful API calls may bill the user’s OpenAI account.
+- Credential priority for the bundled launcher is process `OPENAI_API_KEY` → project `.env` → `~/.env` → current Codex provider in `${CODEX_HOME:-~/.codex}/config.toml`.
+- Reuse a Codex provider only when it supplies both `experimental_bearer_token` and `base_url`. Always bind them together by replacing `OPENAI_BASE_URL` with that provider's URL.
+- Accept provider URLs over HTTPS. Accept HTTP only for `localhost`, `127.0.0.1`, or `::1`; otherwise fail closed and report the missing key normally.
+- A deliberately present blank process variable (`OPENAI_API_KEY=""`) disables provider fallback.
+- Successful API calls may bill the account or provider represented by the selected credential.
 - If host/runtime has native platform-managed image generation and the user wants that path, use the host tool instead of this CLI.
-- If `OPENAI_API_KEY` is unset, report missing key or use host-native generation when requested; do not write secrets.
-- If user wants to avoid local-key use, respect `unset OPENAI_API_KEY`; if a key exists in `.env`/`~/.env`, tell them to remove/rename it for the session rather than working around it.
+- If no credential source is usable, report the missing key or use host-native generation when requested; do not write secrets.
 - Never print secret values.
 
 ## Flags
