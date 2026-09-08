@@ -332,11 +332,15 @@ result = client.images.generate(
 6. **一主角，配角辅助。** 复杂场景最好有一个明显的主体，其它作为配角细节表现。
 7. **文本内嵌、密集图表、小标签和多面板布局用 `quality="high"`。** 中档会明显降低效果。
 
-**这个 skill 提供四个本地 reference surface：**
-- [`skills/gpt-image/references/gallery.md`](skills/gpt-image/references/gallery.md) — 轻量级路由索引，用来为拆分后的 Reference Gallery Atlas 选择 category；它本身**不是**完整 Prompt dump。
+**这个 skill 内置 31 类、162 个图库案例，另有四类可复用模板：**
+
+- [`skills/gpt-image/references/gallery.md`](skills/gpt-image/references/gallery.md) — 按输出类型、风格／场景标签和相近案例选型的路由索引。分类文件开头列出必要输入和常见失败。明确且已授权的生成请求可以直接使用 CLI。
 - `skills/gpt-image/references/gallery-*.md` — 每个 category 一个文件，只在相关任务中加载，例如 [`gallery-product-and-food.md`](skills/gpt-image/references/gallery-product-and-food.md)、[`gallery-ui-ux-mockups.md`](skills/gpt-image/references/gallery-ui-ux-mockups.md)、[`gallery-research-paper-figures.md`](skills/gpt-image/references/gallery-research-paper-figures.md)。这样既能复用 Skill 的参考图库，又不会撑爆上下文。
-- [`skills/gpt-image/references/craft.md`](skills/gpt-image/references/craft.md) — 扩展后的 19 节 Prompt Craft 清单，覆盖 gallery-first 使用方式、JSON/config-style Prompt、多面板排版、UI 规格、数据/图表语法、编辑不变量、参考图工作流、密集文本和分类 mini-schema。
+- 可复用模板：[科学尺度缩放图](skills/gpt-image/references/template-scientific-scale.md)、[概念字体海报](skills/gpt-image/references/template-conceptual-typography.md)、[企业画册视觉系统](skills/gpt-image/references/template-corporate-brochure.md)、[产品研发拆解板](skills/gpt-image/references/template-product-development.md)。每类包含完整提示词、输入变量、默认值、避坑说明和署名，仅按需加载。企业画册输出为栅格视觉方案。四类模板与 162 个案例分别计数。[来源与许可](skills/gpt-image/references/template-sources.md)。
+- [`skills/gpt-image/references/craft.md`](skills/gpt-image/references/craft.md) — 19 节 Prompt Craft 清单，覆盖按需查阅参考、JSON/config-style Prompt、多面板排版、UI 规格、数据/图表语法、编辑不变量、参考图工作流、密集文本和分类 mini-schema。
 - [`skills/gpt-image/references/openai-cookbook.md`](skills/gpt-image/references/openai-cookbook.md) — OpenAI Cookbook 的逐字 Markdown 捕获（1004 行），包括权威的参数覆盖表和所有第4/5节用例示例。
+
+Skill 图库预览使用固定到本仓库图片版本的 HTTPS 地址，并附图片来源页链接。独立安装仍保留全部提示词正文，无需携带完整图片目录；查看预览需要联网。仅请求提示词时不调用图片 API。CLI 参数和当前 provider 凭据处理保持不变。
 
 </details>
 

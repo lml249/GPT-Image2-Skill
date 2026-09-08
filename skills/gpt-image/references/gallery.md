@@ -1,8 +1,23 @@
 # GPT Image 2 Prompt Gallery Index
 
-Routing index for the full Reference Gallery. This is the canonical full catalog; README is a selected showcase. Do **not** load every category file by default. Pick the closest category below, then read only that file (or at most 2–3 neighboring files) plus `craft.md` when drafting prompts.
+Routing index for 162 numbered cases across 31 categories, plus four reusable templates counted separately. README is a selected showcase. Use this index when choosing a style, completing a brief, or repairing a prompt; a precise authorized request can use the CLI directly. Do **not** load every category file by default.
 
-Each `gallery-*.md` category file contains the concrete prompts, direct image previews, image paths, metadata, and attribution/source markers for that slice of the Gallery Atlas.
+Match the requested output type first, then style and scene tags, then nearby cases. Each category starts with selection notes: necessary inputs, typical failures, and relevant case numbers. Read one matching file; use two or three only when a hybrid request needs them. Consult `craft.md` for the specific prompt-writing issue.
+
+Each `gallery-*.md` file contains full prompt text, original attribution, HTTPS image previews, and image-source links. Image links are pinned to repository revision `76fb666a1aea94c463014351429ca1fed6bcf4f4`; they work independently of the local `docs/` tree. Prompts remain readable offline. If image access fails, use the source link or text and report that the preview was not inspected. These URLs do not replace local reference files required by CLI `-i`.
+
+## Reusable templates
+
+Read only the matching template. Each includes fillable inputs, defaults, a complete prompt, execution notes, and source attribution. These four templates add no numbered gallery cases.
+
+| Output / use when | Style and scene tags | Template |
+|---|---|---|
+| Micro-to-macro science explainer / 科学尺度缩放图 | infographic, 3D cutaway; science, education | [Scientific scale diagram](template-scientific-scale.md) |
+| Exact title becomes the main visual / 概念字体海报 | typography, editorial; campaign, culture | [Conceptual typography poster](template-conceptual-typography.md) |
+| Coordinated brochure page previews / 企业画册视觉方案 | brand, editorial; corporate, publishing | [Corporate brochure visual system](template-corporate-brochure.md) |
+| Inspiration, evolution, structure, and materials / 产品研发拆解板 | industrial design, technical; product, concept | [Product development board](template-product-development.md) |
+
+For a known template, go directly to its file. Preserve exact user copy and use the requested language for the final prompt. A prompt-only request does not trigger generation. [Adaptation sources and license](template-sources.md) record the upstream revision and credits.
 
 ## Category files
 
@@ -42,8 +57,8 @@ Each `gallery-*.md` category file contains the concrete prompts, direct image pr
 
 ## Loading policy
 
-- Start here to choose a category; do not read the whole Reference Gallery into context.
-- Read `craft.md` for general prompt-writing principles.
-- Read exactly one `gallery-*.md` category file for normal requests; read two or three only when the user asks for hybrid styles.
+- Use this index when selecting a category or template; do not read the whole Reference Gallery into context.
+- Read `craft.md` when a prompt needs repair or complex layout/text constraints.
+- Read one matching category or template for normal requests; read two or three only when hybrid styles require it.
 - Preserve `Curated` versus `Author + Source` metadata when adapting examples into README/gallery entries.
 - If entries move, update both this index and the corresponding category file in the same PR. Promote to README only when the example belongs in the selected visual showcase.

@@ -4,11 +4,19 @@ Range: No. 147–152 · Count: 6
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: A film-like image defined by framing, color, and atmosphere.
+- Necessary inputs: Scene beat, camera/framing, palette, and one dominant cinematic direction.
+- Style / scene tags: symmetry, sci-fi, slow cinema, noir; film, narrative; 电影感.
+- Typical failures: Stacking incompatible visual references; haze hiding the intended subject.
+- Related cases in this file: No. 147, No. 148, No. 151.
+
 ### No. 147 · Symmetric Pastel: The Grand Conservatory
 
-- Image: `docs/cinematic-film-references/anderson-symmetric-pastel-hotel.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-film-references/anderson-symmetric-pastel-hotel.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-film-references/anderson-symmetric-pastel-hotel.png)
 
-  <img src="../../../docs/cinematic-film-references/anderson-symmetric-pastel-hotel.png" alt="anderson symmetric pastel hotel" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-film-references/anderson-symmetric-pastel-hotel.png" alt="anderson symmetric pastel hotel" width="420"/>
 - Metadata: Cinematic Film References · `landscape` · `1536x1024` · Curated
 
 ```text
@@ -17,9 +25,9 @@ A perfectly symmetrical, wide-angle cinematic shot in the lineage of Wes Anderso
 
 ### No. 148 · Monolithic Scifi: The Obsidian Gate
 
-- Image: `docs/cinematic-film-references/villeneuve-monolithic-desert.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-film-references/villeneuve-monolithic-desert.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-film-references/villeneuve-monolithic-desert.png)
 
-  <img src="../../../docs/cinematic-film-references/villeneuve-monolithic-desert.png" alt="villeneuve monolithic desert" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-film-references/villeneuve-monolithic-desert.png" alt="villeneuve monolithic desert" width="420"/>
 - Metadata: Cinematic Film References · `wide` · `2048x1152` · Curated
 
 ```text
@@ -28,9 +36,9 @@ A breathtaking cinematic wide shot in the lineage of Denis Villeneuve's monolith
 
 ### No. 149 · Dreamscape: The Floating Garden
 
-- Image: `docs/cinematic-film-references/miyazaki-floating-island-garden.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-film-references/miyazaki-floating-island-garden.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-film-references/miyazaki-floating-island-garden.png)
 
-  <img src="../../../docs/cinematic-film-references/miyazaki-floating-island-garden.png" alt="miyazaki floating island garden" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-film-references/miyazaki-floating-island-garden.png" alt="miyazaki floating island garden" width="420"/>
 - Metadata: Cinematic Film References · `landscape` · `1536x1024` · Curated
 
 ```text
@@ -39,9 +47,9 @@ A lush, hand-painted cinematic frame in the lineage of Hayao Miyazaki's dreamlik
 
 ### No. 150 · Slow Cinema: The Misty Orchard
 
-- Image: `docs/cinematic-film-references/tarkovsky-misty-dacha-morning.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-film-references/tarkovsky-misty-dacha-morning.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-film-references/tarkovsky-misty-dacha-morning.png)
 
-  <img src="../../../docs/cinematic-film-references/tarkovsky-misty-dacha-morning.png" alt="tarkovsky misty dacha morning" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-film-references/tarkovsky-misty-dacha-morning.png" alt="tarkovsky misty dacha morning" width="420"/>
 - Metadata: Cinematic Film References · `wide` · `2048x1152` · Curated
 
 ```text
@@ -50,9 +58,9 @@ A contemplative, long-take cinematic frame in the lineage of Tarkovsky's slow ci
 
 ### No. 151 · Neo-Noir: The Orange Fog
 
-- Image: `docs/cinematic-film-references/blade-runner-neo-noir-orange.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-film-references/blade-runner-neo-noir-orange.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-film-references/blade-runner-neo-noir-orange.png)
 
-  <img src="../../../docs/cinematic-film-references/blade-runner-neo-noir-orange.png" alt="blade runner neo noir orange" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-film-references/blade-runner-neo-noir-orange.png" alt="blade runner neo noir orange" width="420"/>
 - Metadata: Cinematic Film References · `wide` · `2048x1152` · Curated
 
 ```text
@@ -60,9 +68,9 @@ A cinematic wide shot in the lineage of Blade Runner 2049, depicting a futuristi
 ```
 ### No. 152 · Expressionist Noir: The Clockwork Alley
 
-- Image: `docs/cinematic-film-references/expressionist-noir-clockwork-alley.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-film-references/expressionist-noir-clockwork-alley.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-film-references/expressionist-noir-clockwork-alley.png)
 
-  <img src="../../../docs/cinematic-film-references/expressionist-noir-clockwork-alley.png" alt="expressionist noir clockwork alley" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-film-references/expressionist-noir-clockwork-alley.png" alt="expressionist noir clockwork alley" width="420"/>
 - Metadata: Cinematic Film References · `wide` · `2048x1152` · Curated
 
 ```text

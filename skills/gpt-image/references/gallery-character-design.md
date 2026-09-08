@@ -4,11 +4,19 @@ Range: No. 31–32 · Count: 2
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: A model sheet, turnaround, expressions, or concept sketch sheet.
+- Necessary inputs: Identity, costume/props, required views, expressions, and shared palette.
+- Style / scene tags: turnaround, sketchbook, model sheet; character, concept; 角色设定.
+- Typical failures: Different identities across views; hidden costume details; inconsistent proportions.
+- Related cases in this file: No. 31, No. 32.
+
 ### No. 31 · Official character reference sheet
 
-- Image: `docs/character-design/character-sheet.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/character-design/character-sheet.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/character-design/character-sheet.png)
 
-  <img src="../../../docs/character-design/character-sheet.png" alt="character sheet" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/character-design/character-sheet.png" alt="character sheet" width="420"/>
 - Metadata: Character Design · `landscape` · `1536x1024` · Author: @MANISH1027512 · Source: [X](https://x.com/MANISH1027512)
 
 ```text
@@ -23,9 +31,9 @@ Based on this character and background, please create a character reference shee
 
 ### No. 32 · Elven archer sketchbook concept sheet
 
-- Image: `docs/character-design/elven-archer-sheet.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/character-design/elven-archer-sheet.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/character-design/elven-archer-sheet.png)
 
-  <img src="../../../docs/character-design/elven-archer-sheet.png" alt="elven archer sheet" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/character-design/elven-archer-sheet.png" alt="elven archer sheet" width="420"/>
 - Metadata: Character Design · `portrait` · `1024x1536` · Author: Unknown · Source: [Reddit](https://www.reddit.com/r/midjourney/comments/1jrcpan/fantasy_concept_arts_with_v7_prompts_included/)
 
 ```text

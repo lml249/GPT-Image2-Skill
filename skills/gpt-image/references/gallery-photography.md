@@ -4,11 +4,19 @@ Range: No. 63–66 · Count: 4
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: A believable captured moment, notebook flatlay, or panorama.
+- Necessary inputs: Subject/place, capture perspective, lighting, and projection if panoramic.
+- Style / scene tags: RAW phone, documentary, flatlay, equirectangular; everyday, travel; 摄影.
+- Typical failures: Over-polished phone photos; contradictory lens cues; panorama seams.
+- Related cases in this file: No. 63, No. 64, No. 66.
+
 ### No. 63 · RAW iPhone — 42nd Street subway
 
-- Image: `docs/photography/photoreal-subway.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/photography/photoreal-subway.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/photography/photoreal-subway.png)
 
-  <img src="../../../docs/photography/photoreal-subway.png" alt="photoreal subway" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/photography/photoreal-subway.png" alt="photoreal subway" width="420"/>
 - Metadata: Photography · `landscape` · `1536x1024` · Author: @WolfRiccardo · Source: [X](https://x.com/WolfRiccardo)
 
 ```text
@@ -17,9 +25,9 @@ Create a completely RAW quality, unprocessed, unedited image with full iPhone ca
 
 ### No. 64 · Handwritten notebook flatlay
 
-- Image: `docs/photography/handwritten-notebook.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/photography/handwritten-notebook.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/photography/handwritten-notebook.png)
 
-  <img src="../../../docs/photography/handwritten-notebook.png" alt="handwritten notebook" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/photography/handwritten-notebook.png" alt="handwritten notebook" width="420"/>
 - Metadata: Photography · `landscape` · `1536x1024` · Author: @patrickassale · Source: [X](https://x.com/patrickassale)
 
 ```text
@@ -28,9 +36,9 @@ Amateur photo of an open notebook lying flat, filled with handwritten notes in b
 
 ### No. 65 · Chess board mid-tournament game
 
-- Image: `docs/photography/chess-midgame.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/photography/chess-midgame.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/photography/chess-midgame.png)
 
-  <img src="../../../docs/photography/chess-midgame.png" alt="chess midgame" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/photography/chess-midgame.png" alt="chess midgame" width="420"/>
 - Metadata: Photography · `landscape` · `1536x1024` · Author: @EddGorenstein · Source: [X](https://x.com/EddGorenstein)
 
 ```text
@@ -41,9 +49,9 @@ Materials: polished wooden staunton-style pieces — dark side in rosewood, ligh
 
 ### No. 66 · 360° equirectangular jungle panorama
 
-- Image: `docs/photography/panorama-jungle.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/photography/panorama-jungle.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/photography/panorama-jungle.png)
 
-  <img src="../../../docs/photography/panorama-jungle.png" alt="panorama jungle" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/photography/panorama-jungle.png" alt="panorama jungle" width="420"/>
 - Metadata: Photography · `wide` · `2048x1152` · Author: @AIimagined · Source: [X](https://x.com/AIimagined)
 
 ```text

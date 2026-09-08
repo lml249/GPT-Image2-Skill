@@ -4,11 +4,19 @@ Range: No. 157–160 · Count: 4
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: A tattoo concept/flash sheet for a specified body placement.
+- Necessary inputs: Placement, motif, tattoo tradition, line/shading approach, and negative space.
+- Style / scene tags: black-and-grey, neo-traditional, irezumi; tattoo, flash; 纹身.
+- Typical failures: Fine detail that collapses at placement scale; insufficient negative-space gaps.
+- Related cases in this file: No. 157, No. 158, No. 159, No. 160.
+
 ### No. 157 · Realistic black-and-grey sleeve study
 
-- Image: `docs/tattoo-design/realistic-black-grey-sleeve-study.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/tattoo-design/realistic-black-grey-sleeve-study.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/tattoo-design/realistic-black-grey-sleeve-study.png)
 
-  <img src="../../../docs/tattoo-design/realistic-black-grey-sleeve-study.png" alt="realistic black grey sleeve study" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/tattoo-design/realistic-black-grey-sleeve-study.png" alt="realistic black grey sleeve study" width="420"/>
 - Metadata: Tattoo Design · `portrait` · `1024x1536` · Curated
 
 ```text
@@ -17,9 +25,9 @@ Create a portrait tattoo design sheet for a realistic black-and-grey forearm sle
 
 ### No. 158 · Color neo-traditional fox and flora
 
-- Image: `docs/tattoo-design/color-neo-traditional-fox-flora.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/tattoo-design/color-neo-traditional-fox-flora.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/tattoo-design/color-neo-traditional-fox-flora.png)
 
-  <img src="../../../docs/tattoo-design/color-neo-traditional-fox-flora.png" alt="color neo traditional fox flora" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/tattoo-design/color-neo-traditional-fox-flora.png" alt="color neo traditional fox flora" width="420"/>
 - Metadata: Tattoo Design · `portrait` · `1024x1536` · Curated
 
 ```text
@@ -28,9 +36,9 @@ Create a colorful neo-traditional tattoo flash poster. Central subject: a clever
 
 ### No. 159 · Japanese traditional dragon and koi back piece
 
-- Image: `docs/tattoo-design/japanese-traditional-dragon-koi.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/tattoo-design/japanese-traditional-dragon-koi.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/tattoo-design/japanese-traditional-dragon-koi.png)
 
-  <img src="../../../docs/tattoo-design/japanese-traditional-dragon-koi.png" alt="japanese traditional dragon koi" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/tattoo-design/japanese-traditional-dragon-koi.png" alt="japanese traditional dragon koi" width="420"/>
 - Metadata: Tattoo Design · `portrait` · `1024x1536` · Curated
 
 ```text
@@ -39,9 +47,9 @@ Create a Japanese traditional irezumi tattoo design poster for a full back piece
 
 ### No. 160 · Dark surrealist moth cathedral
 
-- Image: `docs/tattoo-design/dark-surrealist-moth-cathedral.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/tattoo-design/dark-surrealist-moth-cathedral.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/tattoo-design/dark-surrealist-moth-cathedral.png)
 
-  <img src="../../../docs/tattoo-design/dark-surrealist-moth-cathedral.png" alt="dark surrealist moth cathedral" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/tattoo-design/dark-surrealist-moth-cathedral.png" alt="dark surrealist moth cathedral" width="420"/>
 - Metadata: Tattoo Design · `portrait` · `1024x1536` · Curated
 
 ```text

@@ -4,11 +4,19 @@ Range: No. 48–49 · Count: 2
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: A soft atmospheric watercolor scene with visible paper and pigment.
+- Necessary inputs: Subject, weather/light, paper character, and focal area.
+- Style / scene tags: watercolor, washes; botanical, atmospheric; 水彩.
+- Typical failures: Plastic shading; uniformly sharp edges; losing the focal subject in washes.
+- Related cases in this file: No. 48, No. 49.
+
 ### No. 48 · Dreamy watercolor — young woman at lily pond
 
-- Image: `docs/watercolor/watercolor-lily-pond.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/watercolor/watercolor-lily-pond.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/watercolor/watercolor-lily-pond.png)
 
-  <img src="../../../docs/watercolor/watercolor-lily-pond.png" alt="watercolor lily pond" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/watercolor/watercolor-lily-pond.png" alt="watercolor lily pond" width="420"/>
 - Metadata: Watercolor · `portrait` · `1024x1536` · Author: EvoLinkAI · Source: [GitHub archive](https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts)
 
 ```text
@@ -17,9 +25,9 @@ Dreamy watercolor illustration of a young woman in a cream linen dress sitting o
 
 ### No. 49 · Rainy botanical greenhouse watercolor
 
-- Image: `docs/watercolor/rainy-botanical-greenhouse.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/watercolor/rainy-botanical-greenhouse.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/watercolor/rainy-botanical-greenhouse.png)
 
-  <img src="../../../docs/watercolor/rainy-botanical-greenhouse.png" alt="rainy botanical greenhouse" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/watercolor/rainy-botanical-greenhouse.png" alt="rainy botanical greenhouse" width="420"/>
 - Metadata: Watercolor · `landscape` · `1536x1024` · Curated
 
 ```text

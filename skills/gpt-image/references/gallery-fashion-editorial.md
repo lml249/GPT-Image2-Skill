@@ -4,11 +4,19 @@ Range: No. 129–135 · Count: 7
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: A fashion portrait, lookbook, or runway scene with a defined styling system.
+- Necessary inputs: Adult subject, garment construction, pose, styling, setting, and light.
+- Style / scene tags: editorial, streetwear, couture; fashion, campaign; 时尚.
+- Typical failures: Garment details changing between looks; generic beauty lighting replacing the brief.
+- Related cases in this file: No. 129, No. 130, No. 134.
+
 ### No. 129 · Urban Streetwear Lookbook: Shibuya Night
 
-- Image: `docs/fashion-editorial/streetwear-tokyo-lookbook.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/streetwear-tokyo-lookbook.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/streetwear-tokyo-lookbook.png)
 
-  <img src="../../../docs/fashion-editorial/streetwear-tokyo-lookbook.png" alt="streetwear tokyo lookbook" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/streetwear-tokyo-lookbook.png" alt="streetwear tokyo lookbook" width="420"/>
 - Metadata: Fashion Editorial · `portrait` · `1024x1536` · Curated
 
 ```text
@@ -17,9 +25,9 @@ Full-body lookbook photography of a model standing in the center of a rain-slick
 
 ### No. 130 · Avant-Garde Haute Couture Runway
 
-- Image: `docs/fashion-editorial/haute-couture-sculptural-runway.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/haute-couture-sculptural-runway.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/haute-couture-sculptural-runway.png)
 
-  <img src="../../../docs/fashion-editorial/haute-couture-sculptural-runway.png" alt="haute couture sculptural runway" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/haute-couture-sculptural-runway.png" alt="haute couture sculptural runway" width="420"/>
 - Metadata: Fashion Editorial · `tall` · `2160x3840` · Curated
 
 ```text
@@ -28,9 +36,9 @@ High-angle editorial photograph of a haute couture runway show set within a brut
 
 ### No. 131 · Y2K Revival: Cyber-Pop Studio Session
 
-- Image: `docs/fashion-editorial/y2k-revival-cyber-pop.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/y2k-revival-cyber-pop.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/y2k-revival-cyber-pop.png)
 
-  <img src="../../../docs/fashion-editorial/y2k-revival-cyber-pop.png" alt="y2k revival cyber pop" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/y2k-revival-cyber-pop.png" alt="y2k revival cyber pop" width="420"/>
 - Metadata: Fashion Editorial · `square` · `1024x1024` · Curated
 
 ```text
@@ -39,9 +47,9 @@ A vibrant Y2K-inspired fashion editorial shot in a studio with a high-gloss whit
 
 ### No. 132 · Old Money Aesthetic: Equestrian Estate
 
-- Image: `docs/fashion-editorial/old-money-equestrian-estate.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/old-money-equestrian-estate.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/old-money-equestrian-estate.png)
 
-  <img src="../../../docs/fashion-editorial/old-money-equestrian-estate.png" alt="old money equestrian estate" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/old-money-equestrian-estate.png" alt="old money equestrian estate" width="420"/>
 - Metadata: Fashion Editorial · `landscape` · `1536x1024` · Curated
 
 ```text
@@ -50,9 +58,9 @@ Quiet luxury editorial photography set on a sprawling English country estate dur
 
 ### No. 133 · Avant-Garde: Organic Surrealism
 
-- Image: `docs/fashion-editorial/avant-garde-organic-high-fashion.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/avant-garde-organic-high-fashion.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/avant-garde-organic-high-fashion.png)
 
-  <img src="../../../docs/fashion-editorial/avant-garde-organic-high-fashion.png" alt="avant garde organic high fashion" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/avant-garde-organic-high-fashion.png" alt="avant garde organic high fashion" width="420"/>
 - Metadata: Fashion Editorial · `portrait` · `1024x1536` · Curated
 
 ```text
@@ -61,9 +69,9 @@ A high-fashion editorial shot in a surreal desert landscape where the sand is wh
 
 ### No. 134 · Muted streetwear studio editorial portrait
 
-- Image: `docs/fashion-editorial/editorial-studio-portrait.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/editorial-studio-portrait.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/editorial-studio-portrait.png)
 
-  <img src="../../../docs/fashion-editorial/editorial-studio-portrait.png" alt="editorial studio portrait" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/editorial-studio-portrait.png" alt="editorial studio portrait" width="420"/>
 - Metadata: Fashion Editorial · `portrait` · `1024x1536` · Author: @john_my07 · Source: [X](https://x.com/john_my07/status/2047182640760140198)
 
 ```text
@@ -72,9 +80,9 @@ A high-end studio photoshoot featuring a half-body portrait of a person in their
 
 ### No. 135 · Eiffel Tower luxury night editorial
 
-- Image: `docs/fashion-editorial/eiffel-tower-luxury-editorial.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/eiffel-tower-luxury-editorial.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/eiffel-tower-luxury-editorial.png)
 
-  <img src="../../../docs/fashion-editorial/eiffel-tower-luxury-editorial.png" alt="eiffel tower luxury editorial" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fashion-editorial/eiffel-tower-luxury-editorial.png" alt="eiffel tower luxury editorial" width="420"/>
 - Metadata: Fashion Editorial · `portrait` · `1024x1536` · Author: @Sheldon056 · Source: [X](https://x.com/Sheldon056/status/2047157379020861782)
 
 ```text

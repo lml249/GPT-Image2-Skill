@@ -4,11 +4,20 @@ Range: No. 56–59 · Count: 4
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: A product packshot, packaging conversion, or ingredient hero image.
+- Necessary inputs: Product/reference, materials, copy, key light, and camera angle.
+- Style / scene tags: studio, photorealistic, structured config; commerce, food; 商品, 食品.
+- Typical failures: Distorted packaging type; implausible material or ingredient geometry.
+- Related cases in this file: No. 56, No. 57, No. 58, No. 59.
+- Reusable template: [Product development board](template-product-development.md).
+
 ### No. 56 · 3D product box from dieline
 
-- Image: `docs/product-food/product-dieline-box.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/product-food/product-dieline-box.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/product-food/product-dieline-box.png)
 
-  <img src="../../../docs/product-food/product-dieline-box.png" alt="product dieline box" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/product-food/product-dieline-box.png" alt="product dieline box" width="420"/>
 - Metadata: Product & Food · `portrait` · `1024x1536` · Author: @Salmaaboukarr · Source: [X](https://x.com/Salmaaboukarr)
 
 ```text
@@ -17,9 +26,9 @@ Assemble the dieline into a flawless 3D box with accurate panels, clean folds, u
 
 ### No. 57 · Chocolate wafer product render (JSON-style)
 
-- Image: `docs/product-food/product-chocolate-wafer.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/product-food/product-chocolate-wafer.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/product-food/product-chocolate-wafer.png)
 
-  <img src="../../../docs/product-food/product-chocolate-wafer.png" alt="product chocolate wafer" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/product-food/product-chocolate-wafer.png" alt="product chocolate wafer" width="420"/>
 - Metadata: Product & Food · `portrait` · `1024x1536` · Author: @mehvishs25 · Source: [X](https://x.com/mehvishs25)
 
 ```text
@@ -53,9 +62,9 @@ Assemble the dieline into a flawless 3D box with accurate panels, clean folds, u
 
 ### No. 58 · Salad-explosion food photography (JSON-style)
 
-- Image: `docs/product-food/food-salad-explosion.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/product-food/food-salad-explosion.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/product-food/food-salad-explosion.png)
 
-  <img src="../../../docs/product-food/food-salad-explosion.png" alt="food salad explosion" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/product-food/food-salad-explosion.png" alt="food salad explosion" width="420"/>
 - Metadata: Product & Food · `portrait` · `1024x1536` · Author: @ChillaiKalan__ · Source: [X](https://x.com/ChillaiKalan__)
 
 ```text
@@ -86,9 +95,9 @@ Assemble the dieline into a flawless 3D box with accurate panels, clean folds, u
 
 ### No. 59 · Universal commercial poster template
 
-- Image: `docs/product-food/aurora-oolong-poster.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/product-food/aurora-oolong-poster.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/product-food/aurora-oolong-poster.png)
 
-  <img src="../../../docs/product-food/aurora-oolong-poster.png" alt="aurora oolong poster" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/product-food/aurora-oolong-poster.png" alt="aurora oolong poster" width="420"/>
 - Metadata: Product & Food · `portrait` · `1024x1536` · Author: Unknown · Source: [Xiaohongshu](https://www.xiaohongshu.com/explore/69e7878300000000230050bb)
 
 ```text

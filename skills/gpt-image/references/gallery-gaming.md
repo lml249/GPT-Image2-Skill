@@ -4,11 +4,19 @@ Range: No. 13–22 · Count: 10
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: Gameplay-style scenes, HUD concepts, or a coherent game world board.
+- Necessary inputs: Game-camera perspective, playable scene, HUD labels, and board count if any.
+- Style / scene tags: gameplay, pixel RPG, low-poly, HUD; gaming, worldbuilding; 游戏.
+- Typical failures: HUD covering the action; mixing incompatible camera views or interface styles.
+- Related cases in this file: No. 15, No. 17, No. 22.
+
 ### No. 13 · Hitman gameplay — OpenAI HQ
 
-- Image: `docs/gaming/hitman-openai.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/hitman-openai.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/hitman-openai.png)
 
-  <img src="../../../docs/gaming/hitman-openai.png" alt="hitman openai" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/hitman-openai.png" alt="hitman openai" width="420"/>
 - Metadata: Gaming · `landscape` · `1536x1024` · Author: @flowersslop · Source: [X](https://x.com/flowersslop)
 
 ```text
@@ -17,9 +25,9 @@ A Hitman level where you are in the OpenAI HQ and your mission is to steal GPT-6
 
 ### No. 14 · GTA 6 gameplay — Vice City beach
 
-- Image: `docs/gaming/gta6-beach.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/gta6-beach.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/gta6-beach.png)
 
-  <img src="../../../docs/gaming/gta6-beach.png" alt="gta6 beach" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/gta6-beach.png" alt="gta6 beach" width="420"/>
 - Metadata: Gaming · `landscape` · `1536x1024` · Author: @WolfRiccardo · Source: [X](https://x.com/WolfRiccardo)
 
 ```text
@@ -28,9 +36,9 @@ GTA 6 in-game footage, very detailed, very realistic. Close-up shot taken from a
 
 ### No. 15 · Dark-fantasy swamp boss hunt
 
-- Image: `docs/gaming/dark-fantasy-hunt.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/dark-fantasy-hunt.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/dark-fantasy-hunt.png)
 
-  <img src="../../../docs/gaming/dark-fantasy-hunt.png" alt="dark fantasy hunt" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/dark-fantasy-hunt.png" alt="dark fantasy hunt" width="420"/>
 - Metadata: Gaming · `landscape` · `1536x1024` · Curated
 
 ```text
@@ -39,9 +47,9 @@ Create an original AAA dark-fantasy action RPG screenshot. A silver-haired monst
 
 ### No. 16 · Epic fellowship bridge approach
 
-- Image: `docs/gaming/epic-fellowship-bridge.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/epic-fellowship-bridge.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/epic-fellowship-bridge.png)
 
-  <img src="../../../docs/gaming/epic-fellowship-bridge.png" alt="epic fellowship bridge" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/epic-fellowship-bridge.png" alt="epic fellowship bridge" width="420"/>
 - Metadata: Gaming · `landscape` · `1536x1024` · Curated
 
 ```text
@@ -50,9 +58,9 @@ Create an original epic fantasy RPG key-art screenshot. A small fellowship of tr
 
 ### No. 17 · Retro Japanese town pixel RPG
 
-- Image: `docs/gaming/retro-japan-rpg.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/retro-japan-rpg.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/retro-japan-rpg.png)
 
-  <img src="../../../docs/gaming/retro-japan-rpg.png" alt="retro japan rpg" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/retro-japan-rpg.png" alt="retro japan rpg" width="420"/>
 - Metadata: Gaming · `landscape` · `1536x1024` · Author: Unknown · Source: [Reddit](https://www.reddit.com/r/midjourney/comments/1kozn4u/retro_video_games_in_japan_prompts_included/)
 
 ```text
@@ -61,9 +69,9 @@ Create an isometric pixel-art RPG screenshot of a traditional Japanese village d
 
 ### No. 18 · Cyberpunk Europe action HUD
 
-- Image: `docs/gaming/cyberpunk-europe-action.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/cyberpunk-europe-action.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/cyberpunk-europe-action.png)
 
-  <img src="../../../docs/gaming/cyberpunk-europe-action.png" alt="cyberpunk europe action" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/cyberpunk-europe-action.png" alt="cyberpunk europe action" width="420"/>
 - Metadata: Gaming · `landscape` · `1536x1024` · Author: Unknown · Source: [Reddit](https://www.reddit.com/r/midjourney/comments/1kzzy77/cyberpunk_video_games_in_european_cities_prompts/)
 
 ```text
@@ -72,9 +80,9 @@ Create a third-person cyberpunk action game screenshot set in a neon-soaked Euro
 
 ### No. 19 · Anime open-world adventure HUD
 
-- Image: `docs/gaming/anime-open-world.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/anime-open-world.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/anime-open-world.png)
 
-  <img src="../../../docs/gaming/anime-open-world.png" alt="anime open world" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/anime-open-world.png" alt="anime open world" width="420"/>
 - Metadata: Gaming · `landscape` · `1536x1024` · Author: Unknown · Source: [Reddit](https://www.reddit.com/r/midjourney/comments/1lh2l98/anime_style_video_games_prompts_included/)
 
 ```text
@@ -83,9 +91,9 @@ Create a third-person over-the-shoulder screenshot from a nostalgic anime-style 
 
 ### No. 20 · Mobile MOBA arena HUD
 
-- Image: `docs/gaming/mobile-moba-arena-hud.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/mobile-moba-arena-hud.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/mobile-moba-arena-hud.png)
 
-  <img src="../../../docs/gaming/mobile-moba-arena-hud.png" alt="mobile moba arena hud" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/mobile-moba-arena-hud.png" alt="mobile moba arena hud" width="420"/>
 - Metadata: Gaming · `landscape` · `1536x1024` · Curated
 
 ```text
@@ -94,9 +102,9 @@ Create an original landscape mobile MOBA / action-RPG gameplay screenshot, inspi
 
 ### No. 21 · Low-poly samurai strategy village
 
-- Image: `docs/gaming/lowpoly-samurai-strategy.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/lowpoly-samurai-strategy.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/lowpoly-samurai-strategy.png)
 
-  <img src="../../../docs/gaming/lowpoly-samurai-strategy.png" alt="lowpoly samurai strategy" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/lowpoly-samurai-strategy.png" alt="lowpoly samurai strategy" width="420"/>
 - Metadata: Gaming · `landscape` · `1536x1024` · Author: Unknown · Source: [Reddit](https://www.reddit.com/r/midjourney/comments/1l2d5dr/lowpoly_strategy_video_games_in_japan_prompts/)
 
 ```text
@@ -105,9 +113,9 @@ Create an isometric low-poly strategy game screenshot of a mountainous Japanese 
 
 ### No. 22 · Nine-panel dark-fantasy worldbuilding set
 
-- Image: `docs/gaming/worldbuilding-nine-panel-set.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/worldbuilding-nine-panel-set.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/worldbuilding-nine-panel-set.png)
 
-  <img src="../../../docs/gaming/worldbuilding-nine-panel-set.png" alt="worldbuilding nine panel set" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/gaming/worldbuilding-nine-panel-set.png" alt="worldbuilding nine panel set" width="420"/>
 - Metadata: Gaming · `square` · `1024x1024` · Author: @aleenaamiir · Source: [X](https://x.com/aleenaamiir/status/2046866168208916503)
 
 ```text

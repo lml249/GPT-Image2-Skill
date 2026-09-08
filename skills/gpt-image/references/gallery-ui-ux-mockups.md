@@ -4,11 +4,19 @@ Range: No. 102–106 · Count: 5
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: A raster app screen, dashboard, or design-system concept.
+- Necessary inputs: Device/ratio, product context, component layout, exact copy and values.
+- Style / scene tags: UI, dashboard, components; product design, tech; 界面, 仪表盘.
+- Typical failures: Fake microtext; contradictory navigation; treating a raster mockup as working UI.
+- Related cases in this file: No. 102, No. 103, No. 104.
+
 ### No. 102 · Mobile Budgeting App Mockup
 
-- Image: `docs/uiux-mockups/mobile-budgeting-app-neobank.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/uiux-mockups/mobile-budgeting-app-neobank.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/uiux-mockups/mobile-budgeting-app-neobank.png)
 
-  <img src="../../../docs/uiux-mockups/mobile-budgeting-app-neobank.png" alt="mobile budgeting app neobank" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/uiux-mockups/mobile-budgeting-app-neobank.png" alt="mobile budgeting app neobank" width="420"/>
 - Metadata: UI/UX Mockups · `portrait` · `1024x1536` · Curated
 
 ```text
@@ -17,9 +25,9 @@ Design a polished mobile finance app UI mockup for a fictional neobank called AU
 
 ### No. 103 · Desktop Operations Dashboard
 
-- Image: `docs/uiux-mockups/desktop-analytics-dashboard-operations.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/uiux-mockups/desktop-analytics-dashboard-operations.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/uiux-mockups/desktop-analytics-dashboard-operations.png)
 
-  <img src="../../../docs/uiux-mockups/desktop-analytics-dashboard-operations.png" alt="desktop analytics dashboard operations" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/uiux-mockups/desktop-analytics-dashboard-operations.png" alt="desktop analytics dashboard operations" width="420"/>
 - Metadata: UI/UX Mockups · `landscape` · `1536x1024` · Curated
 
 ```text
@@ -28,9 +36,9 @@ Create a high-end desktop SaaS analytics dashboard mockup for a fictional platfo
 
 ### No. 104 · Design System Card Set
 
-- Image: `docs/uiux-mockups/design-system-component-card-set.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/uiux-mockups/design-system-component-card-set.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/uiux-mockups/design-system-component-card-set.png)
 
-  <img src="../../../docs/uiux-mockups/design-system-component-card-set.png" alt="design system component card set" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/uiux-mockups/design-system-component-card-set.png" alt="design system component card set" width="420"/>
 - Metadata: UI/UX Mockups · `square` · `1024x1024` · Curated
 
 ```text
@@ -39,9 +47,9 @@ Generate a clean design system overview board for a fictional product language c
 
 ### No. 105 · Web3 Wallet Interface Concept
 
-- Image: `docs/uiux-mockups/web3-wallet-app-concept.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/uiux-mockups/web3-wallet-app-concept.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/uiux-mockups/web3-wallet-app-concept.png)
 
-  <img src="../../../docs/uiux-mockups/web3-wallet-app-concept.png" alt="web3 wallet app concept" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/uiux-mockups/web3-wallet-app-concept.png" alt="web3 wallet app concept" width="420"/>
 - Metadata: UI/UX Mockups · `portrait` · `1024x1536` · Curated
 
 ```text
@@ -50,9 +58,9 @@ Design a premium mobile web3 wallet app mockup for a fictional wallet called NOV
 
 ### No. 106 · Health Tracker App Mockup
 
-- Image: `docs/uiux-mockups/health-tracker-wellness-app.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/uiux-mockups/health-tracker-wellness-app.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/uiux-mockups/health-tracker-wellness-app.png)
 
-  <img src="../../../docs/uiux-mockups/health-tracker-wellness-app.png" alt="health tracker wellness app" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/uiux-mockups/health-tracker-wellness-app.png" alt="health tracker wellness app" width="420"/>
 - Metadata: UI/UX Mockups · `portrait` · `1024x1536` · Curated
 
 ```text

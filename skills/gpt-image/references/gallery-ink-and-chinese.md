@@ -4,11 +4,19 @@ Range: No. 50–51 · Count: 2
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: Ink landscapes or historical Chinese scenes/handscrolls.
+- Necessary inputs: Location or period, ink handling, composition, and any exact calligraphy.
+- Style / scene tags: ink wash, gongbi, handscroll; history, landscape; 水墨, 古风.
+- Typical failures: Anachronistic props; fake calligraphy; dense detail overwhelming empty space.
+- Related cases in this file: No. 50, No. 51.
+
 ### No. 50 · Chinese ink-wash mountain landscape
 
-- Image: `docs/ink-chinese/ink-landscape.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/ink-chinese/ink-landscape.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/ink-chinese/ink-landscape.png)
 
-  <img src="../../../docs/ink-chinese/ink-landscape.png" alt="ink landscape" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/ink-chinese/ink-landscape.png" alt="ink landscape" width="420"/>
 - Metadata: Ink & Chinese · `portrait` · `1024x1536` · Author: EvoLinkAI · Source: [GitHub archive](https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts)
 
 ```text
@@ -17,9 +25,9 @@ A traditional Chinese ink-wash (水墨) landscape painting of mist-shrouded moun
 
 ### No. 51 · Song dynasty night-market handscroll
 
-- Image: `docs/ink-chinese/song-night-market-scroll.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/ink-chinese/song-night-market-scroll.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/ink-chinese/song-night-market-scroll.png)
 
-  <img src="../../../docs/ink-chinese/song-night-market-scroll.png" alt="song night market scroll" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/ink-chinese/song-night-market-scroll.png" alt="song night market scroll" width="420"/>
 - Metadata: Ink & Chinese · `landscape` · `1536x1024` · Curated
 
 ```text

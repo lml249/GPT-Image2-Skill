@@ -4,11 +4,20 @@ Range: No. 112–116 · Count: 5
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: An exploded view, cutaway, or layered technical explanation.
+- Necessary inputs: Component order, assembly relations, materials, labels, and known dimensions.
+- Style / scene tags: exploded view, cutaway, technical plate; engineering, products; 技术图解.
+- Typical failures: Floating parts with no assembly relation; contradictory internals; invented specifications.
+- Related cases in this file: No. 112, No. 114, No. 116.
+- Reusable template: [Product development board](template-product-development.md).
+
 ### No. 112 · Mechanical Watch Exploded View
 
-- Image: `docs/technical-illustration/mechanical-watch-exploded-view.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/technical-illustration/mechanical-watch-exploded-view.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/technical-illustration/mechanical-watch-exploded-view.png)
 
-  <img src="../../../docs/technical-illustration/mechanical-watch-exploded-view.png" alt="mechanical watch exploded view" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/technical-illustration/mechanical-watch-exploded-view.png" alt="mechanical watch exploded view" width="420"/>
 - Metadata: Technical Illustration · `square` · `1024x1024` · Curated
 
 ```text
@@ -17,9 +26,9 @@ Create a premium technical exploded-view illustration of a fictional mechanical 
 
 ### No. 113 · Rocket Cutaway Diagram
 
-- Image: `docs/technical-illustration/rocket-cutaway-launch-vehicle.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/technical-illustration/rocket-cutaway-launch-vehicle.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/technical-illustration/rocket-cutaway-launch-vehicle.png)
 
-  <img src="../../../docs/technical-illustration/rocket-cutaway-launch-vehicle.png" alt="rocket cutaway launch vehicle" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/technical-illustration/rocket-cutaway-launch-vehicle.png" alt="rocket cutaway launch vehicle" width="420"/>
 - Metadata: Technical Illustration · `tall` · `2160x3840` · Curated
 
 ```text
@@ -28,9 +37,9 @@ Generate a highly detailed vertical cutaway illustration of a fictional two-stag
 
 ### No. 114 · Mechanical Keyboard Exploded Assembly
 
-- Image: `docs/technical-illustration/mechanical-keyboard-exploded-assembly.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/technical-illustration/mechanical-keyboard-exploded-assembly.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/technical-illustration/mechanical-keyboard-exploded-assembly.png)
 
-  <img src="../../../docs/technical-illustration/mechanical-keyboard-exploded-assembly.png" alt="mechanical keyboard exploded assembly" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/technical-illustration/mechanical-keyboard-exploded-assembly.png" alt="mechanical keyboard exploded assembly" width="420"/>
 - Metadata: Technical Illustration · `wide` · `2048x1152` · Curated
 
 ```text
@@ -39,9 +48,9 @@ Design a crisp exploded-view product illustration of a custom mechanical keyboar
 
 ### No. 115 · Car Powertrain Transparent Cutaway
 
-- Image: `docs/technical-illustration/car-powertrain-transparent-cutaway.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/technical-illustration/car-powertrain-transparent-cutaway.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/technical-illustration/car-powertrain-transparent-cutaway.png)
 
-  <img src="../../../docs/technical-illustration/car-powertrain-transparent-cutaway.png" alt="car powertrain transparent cutaway" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/technical-illustration/car-powertrain-transparent-cutaway.png" alt="car powertrain transparent cutaway" width="420"/>
 - Metadata: Technical Illustration · `landscape` · `1536x1024` · Curated
 
 ```text
@@ -50,9 +59,9 @@ Create a high-detail transparent cutaway illustration of a fictional hybrid spor
 
 ### No. 116 · Smartphone Internals Layered View
 
-- Image: `docs/technical-illustration/smartphone-internals-layered-view.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/technical-illustration/smartphone-internals-layered-view.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/technical-illustration/smartphone-internals-layered-view.png)
 
-  <img src="../../../docs/technical-illustration/smartphone-internals-layered-view.png" alt="smartphone internals layered view" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/technical-illustration/smartphone-internals-layered-view.png" alt="smartphone internals layered view" width="420"/>
 - Metadata: Technical Illustration · `portrait` · `1024x1536` · Curated
 
 ```text

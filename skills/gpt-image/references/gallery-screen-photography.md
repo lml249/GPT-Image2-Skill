@@ -4,11 +4,19 @@ Range: No. 161–162 · Count: 2
 
 Load this file only when the request matches photo-of-screen realism, laptop-screen POV shots, moiré/RGB-pixel artifacts, or “not a screenshot” interface photography. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: A photograph of a monitor with layered app or webcam content.
+- Necessary inputs: Screen content, exact text, window arrangement, camera angle, and room reflections.
+- Style / scene tags: screen photo, desktop, webcam; tech, everyday; 屏幕摄影.
+- Typical failures: A clean screenshot replacing a physical-screen photo; perspective-inconsistent windows.
+- Related cases in this file: No. 161, No. 162.
+
 ### No. 161 · Music app + webcam preview
 
-- Image: `docs/screen-photography/laptop-music-webcam-screen.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/screen-photography/laptop-music-webcam-screen.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/screen-photography/laptop-music-webcam-screen.png)
 
-  <img src="../../../docs/screen-photography/laptop-music-webcam-screen.png" alt="laptop music webcam screen" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/screen-photography/laptop-music-webcam-screen.png" alt="laptop music webcam screen" width="420"/>
 - Metadata: Screen Photography · `1152x1536` · Source structure: [Reddit](https://www.reddit.com/r/OpenAI/comments/1st5kcd/gpt2_cooked_this_photo_of_a_screen_prompt_macbook/) adapted
 
 ```text
@@ -17,9 +25,9 @@ Create a raw smartphone photo of a laptop screen, not a screenshot. Aspect ratio
 
 ### No. 162 · Notes + FaceTime work screen
 
-- Image: `docs/screen-photography/laptop-notes-facetime-screen.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/screen-photography/laptop-notes-facetime-screen.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/screen-photography/laptop-notes-facetime-screen.png)
 
-  <img src="../../../docs/screen-photography/laptop-notes-facetime-screen.png" alt="laptop notes facetime screen" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/screen-photography/laptop-notes-facetime-screen.png" alt="laptop notes facetime screen" width="420"/>
 - Metadata: Screen Photography · `1152x1536` · Curated
 
 ```text

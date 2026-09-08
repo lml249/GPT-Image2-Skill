@@ -4,11 +4,19 @@ Range: No. 141–146 · Count: 6
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: A flat, chibi, low-poly, sticker, or risograph visual.
+- Necessary inputs: Selected medium, subject, palette, and sheet/cutout arrangement if needed.
+- Style / scene tags: flat, chibi, low-poly, sticker, risograph; illustration, assets; 插画风格.
+- Typical failures: Mixed rendering conventions; merging separate stickers; inconsistent outlines.
+- Related cases in this file: No. 141, No. 143, No. 145, No. 146.
+
 ### No. 141 · Flat Design: Modern Wellness
 
-- Image: `docs/more-illustration-styles/flat-design-editorial-wellness.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/more-illustration-styles/flat-design-editorial-wellness.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/more-illustration-styles/flat-design-editorial-wellness.png)
 
-  <img src="../../../docs/more-illustration-styles/flat-design-editorial-wellness.png" alt="flat design editorial wellness" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/more-illustration-styles/flat-design-editorial-wellness.png" alt="flat design editorial wellness" width="420"/>
 - Metadata: More Illustration Styles · `square` · `1024x1024` · Curated
 
 ```text
@@ -17,9 +25,9 @@ A clean, vector-based flat design illustration for a modern health and wellness 
 
 ### No. 142 · Chibi Style: The Starry Bakery
 
-- Image: `docs/more-illustration-styles/chibi-kawaii-bakery.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/more-illustration-styles/chibi-kawaii-bakery.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/more-illustration-styles/chibi-kawaii-bakery.png)
 
-  <img src="../../../docs/more-illustration-styles/chibi-kawaii-bakery.png" alt="chibi kawaii bakery" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/more-illustration-styles/chibi-kawaii-bakery.png" alt="chibi kawaii bakery" width="420"/>
 - Metadata: More Illustration Styles · `square` · `1024x1024` · Curated
 
 ```text
@@ -28,9 +36,9 @@ A hyper-cute 'Q-style' or chibi illustration of a tiny, magical bakery run by a 
 
 ### No. 143 · Low-Poly Geometric: Alpine Sunset
 
-- Image: `docs/more-illustration-styles/low-poly-mountain-voyage.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/more-illustration-styles/low-poly-mountain-voyage.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/more-illustration-styles/low-poly-mountain-voyage.png)
 
-  <img src="../../../docs/more-illustration-styles/low-poly-mountain-voyage.png" alt="low poly mountain voyage" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/more-illustration-styles/low-poly-mountain-voyage.png" alt="low poly mountain voyage" width="420"/>
 - Metadata: More Illustration Styles · `landscape` · `1536x1024` · Curated
 
 ```text
@@ -39,9 +47,9 @@ A stylized landscape illustration composed entirely of sharp, flat-shaded geomet
 
 ### No. 144 · Sticker Design: Cyber-Explorer Club
 
-- Image: `docs/more-illustration-styles/holographic-sticker-badge.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/more-illustration-styles/holographic-sticker-badge.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/more-illustration-styles/holographic-sticker-badge.png)
 
-  <img src="../../../docs/more-illustration-styles/holographic-sticker-badge.png" alt="holographic sticker badge" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/more-illustration-styles/holographic-sticker-badge.png" alt="holographic sticker badge" width="420"/>
 - Metadata: More Illustration Styles · `square` · `1024x1024` · Curated
 
 ```text
@@ -50,9 +58,9 @@ A collection of five high-quality die-cut sticker designs arranged on a dark car
 
 ### No. 145 · Kawaii sticker pack: Mexico icons
 
-- Image: `docs/more-illustration-styles/kawaii-sticker-pack-mexico.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/more-illustration-styles/kawaii-sticker-pack-mexico.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/more-illustration-styles/kawaii-sticker-pack-mexico.png)
 
-  <img src="../../../docs/more-illustration-styles/kawaii-sticker-pack-mexico.png" alt="kawaii sticker pack mexico" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/more-illustration-styles/kawaii-sticker-pack-mexico.png" alt="kawaii sticker pack mexico" width="420"/>
 - Metadata: More Illustration Styles · `square` · `1024x1024` · Author: @aleenaamiir · Source: [X](https://x.com/aleenaamiir/status/2046875573574877663)
 
 ```text
@@ -61,9 +69,9 @@ Design a cute kawaii sticker pack featuring famous things from Mexico, including
 
 ### No. 146 · Risograph Print: City Shadows
 
-- Image: `docs/more-illustration-styles/risograph-urban-landscape.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/more-illustration-styles/risograph-urban-landscape.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/more-illustration-styles/risograph-urban-landscape.png)
 
-  <img src="../../../docs/more-illustration-styles/risograph-urban-landscape.png" alt="risograph urban landscape" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/more-illustration-styles/risograph-urban-landscape.png" alt="risograph urban landscape" width="420"/>
 - Metadata: More Illustration Styles · `portrait` · `1024x1536` · Curated
 
 ```text

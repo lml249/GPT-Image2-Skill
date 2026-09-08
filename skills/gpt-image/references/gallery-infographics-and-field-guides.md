@@ -4,11 +4,20 @@ Range: No. 67–74 · Count: 8
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: An explanatory board, annotated guide, or modular knowledge card.
+- Necessary inputs: Audience, exact short labels, module roles, facts, and reading order.
+- Style / scene tags: infographic, field guide, museum plate; education, travel, food; 信息图.
+- Typical failures: Long paragraphs in small panels; crossed callouts; decorative but unclear flow.
+- Related cases in this file: No. 68, No. 69, No. 72, No. 74.
+- Reusable template: [Scientific scale diagram](template-scientific-scale.md).
+
 ### No. 67 · Song Dynasty social-media feed
 
-- Image: `docs/infographics-field-guides/song-dynasty-feed.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/song-dynasty-feed.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/song-dynasty-feed.png)
 
-  <img src="../../../docs/infographics-field-guides/song-dynasty-feed.png" alt="song dynasty feed" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/song-dynasty-feed.png" alt="song dynasty feed" width="420"/>
 - Metadata: Infographics & Field Guides · `portrait` · `1024x1536` · Author: @Panda20230902 · Source: [X](https://x.com/Panda20230902)
 
 ```text
@@ -17,9 +26,9 @@ Load this file only when the request matches this category. For cross-cutting wr
 
 ### No. 68 · Museum catalog disassembly infographic (唐代襦裙)
 
-- Image: `docs/infographics-field-guides/museum-infographic.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/museum-infographic.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/museum-infographic.png)
 
-  <img src="../../../docs/infographics-field-guides/museum-infographic.png" alt="museum infographic" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/museum-infographic.png" alt="museum infographic" width="420"/>
 - Metadata: Infographics & Field Guides · `portrait` · `1024x1536` · Author: @MrLarus · Source: [X](https://x.com/MrLarus)
 
 ```text
@@ -43,9 +52,9 @@ Avoid: poster feel, studio portrait feel, e-commerce feel, anime feel, cosplay f
 
 ### No. 69 · Encyclopedia field guide (Giant Panda)
 
-- Image: `docs/infographics-field-guides/encyclopedia-panda.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/encyclopedia-panda.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/encyclopedia-panda.png)
 
-  <img src="../../../docs/infographics-field-guides/encyclopedia-panda.png" alt="encyclopedia panda" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/encyclopedia-panda.png" alt="encyclopedia panda" width="420"/>
 - Metadata: Infographics & Field Guides · `portrait` · `1024x1536` · Author: @MrLarus · Source: [X](https://x.com/MrLarus)
 
 ```text
@@ -70,9 +79,9 @@ Do not make it look like a commercial promo poster. Emphasize knowledge organiza
 
 ### No. 70 · Weekend Seoul travel guide poster
 
-- Image: `docs/infographics-field-guides/seoul-travel-guide.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/seoul-travel-guide.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/seoul-travel-guide.png)
 
-  <img src="../../../docs/infographics-field-guides/seoul-travel-guide.png" alt="seoul travel guide" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/seoul-travel-guide.png" alt="seoul travel guide" width="420"/>
 - Metadata: Infographics & Field Guides · `portrait` · `1024x1536` · Author: Unknown · Source: [Xiaohongshu](https://www.xiaohongshu.com/explore/69e8cd0d0000000023007215)
 
 ```text
@@ -81,9 +90,9 @@ Generate a polished one-page Chinese travel guide poster for a fast weekend trip
 
 ### No. 71 · Modular encyclopedia infographic card
 
-- Image: `docs/infographics-field-guides/snow-leopard-encyclopedia-card.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/snow-leopard-encyclopedia-card.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/snow-leopard-encyclopedia-card.png)
 
-  <img src="../../../docs/infographics-field-guides/snow-leopard-encyclopedia-card.png" alt="snow leopard encyclopedia card" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/snow-leopard-encyclopedia-card.png" alt="snow leopard encyclopedia card" width="420"/>
 - Metadata: Infographics & Field Guides · `portrait` · `1024x1536` · Author: Unknown · Source: [Xiaohongshu](https://www.xiaohongshu.com/explore/69e832170000000023012116)
 
 ```text
@@ -92,9 +101,9 @@ Generate a high-quality vertical science encyclopedia card about "雪豹 Snow Le
 
 ### No. 72 · Xiaohongshu cooking tutorial card
 
-- Image: `docs/infographics-field-guides/cooking-tutorial-card.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/cooking-tutorial-card.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/cooking-tutorial-card.png)
 
-  <img src="../../../docs/infographics-field-guides/cooking-tutorial-card.png" alt="cooking tutorial card" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/cooking-tutorial-card.png" alt="cooking tutorial card" width="420"/>
 - Metadata: Infographics & Field Guides · `portrait` · `1024x1536` · Author: Unknown · Source: [Xiaohongshu](https://www.xiaohongshu.com/explore/69e8eeed0000000021004a54)
 
 ```text
@@ -103,9 +112,9 @@ Create a Xiaohongshu-style viral cooking tutorial image in a 3:4 vertical layout
 
 ### No. 73 · Camera styles reference board for iPhone photographers
 
-- Image: `docs/infographics-field-guides/camera-styles-infographic.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/camera-styles-infographic.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/camera-styles-infographic.png)
 
-  <img src="../../../docs/infographics-field-guides/camera-styles-infographic.png" alt="camera styles infographic" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/camera-styles-infographic.png" alt="camera styles infographic" width="420"/>
 - Metadata: Infographics & Field Guides · `landscape` · `1536x1024` · Author: @Vtrivedy10 · Source: [X](https://x.com/Vtrivedy10/status/2046771959157887014)
 
 ```text
@@ -114,9 +123,9 @@ Make me an image in 35 mm film style of a diagram showing the knowledge of camer
 
 ### No. 74 · Chinese endangered-animal infographic
 
-- Image: `docs/infographics-field-guides/endangered-animal-chinese-infographic.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/endangered-animal-chinese-infographic.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/endangered-animal-chinese-infographic.png)
 
-  <img src="../../../docs/infographics-field-guides/endangered-animal-chinese-infographic.png" alt="endangered animal chinese infographic" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/infographics-field-guides/endangered-animal-chinese-infographic.png" alt="endangered animal chinese infographic" width="420"/>
 - Metadata: Infographics & Field Guides · `portrait` · `1024x1536` · Author: @billtheinvestor · Source: [X](https://x.com/billtheinvestor/status/2047153211560399009)
 
 ```text

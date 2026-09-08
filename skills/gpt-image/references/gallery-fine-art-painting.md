@@ -4,11 +4,19 @@ Range: No. 136–140 · Count: 5
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: A painting organized around a medium, movement, and composition.
+- Necessary inputs: Subject, painting medium, mark-making, palette, and focal structure.
+- Style / scene tags: impasto, impressionism, color field; fine art; 绘画.
+- Typical failures: Mixing incompatible paint surfaces; style labels without concrete brushwork.
+- Related cases in this file: No. 136, No. 137, No. 139.
+
 ### No. 136 · Vibrant Impasto: Floral Rhythms
 
-- Image: `docs/fine-art-painting/impasto-floral-swirls.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fine-art-painting/impasto-floral-swirls.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fine-art-painting/impasto-floral-swirls.png)
 
-  <img src="../../../docs/fine-art-painting/impasto-floral-swirls.png" alt="impasto floral swirls" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fine-art-painting/impasto-floral-swirls.png" alt="impasto floral swirls" width="420"/>
 - Metadata: Fine Art Painting · `square` · `1024x1024` · Curated
 
 ```text
@@ -17,9 +25,9 @@ A vivid oil painting in the lineage of post-impressionist impasto, featuring a d
 
 ### No. 137 · Impressionist Lineage: River at Dusk
 
-- Image: `docs/fine-art-painting/impressionist-river-dusk.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fine-art-painting/impressionist-river-dusk.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fine-art-painting/impressionist-river-dusk.png)
 
-  <img src="../../../docs/fine-art-painting/impressionist-river-dusk.png" alt="impressionist river dusk" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fine-art-painting/impressionist-river-dusk.png" alt="impressionist river dusk" width="420"/>
 - Metadata: Fine Art Painting · `wide` · `2048x1152` · Curated
 
 ```text
@@ -28,9 +36,9 @@ A serene landscape painting in the lineage of late 19th-century Impressionism, d
 
 ### No. 138 · Mid-Century Modern: The Blue Pool
 
-- Image: `docs/fine-art-painting/hockney-california-backyard.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fine-art-painting/hockney-california-backyard.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fine-art-painting/hockney-california-backyard.png)
 
-  <img src="../../../docs/fine-art-painting/hockney-california-backyard.png" alt="hockney california backyard" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fine-art-painting/hockney-california-backyard.png" alt="hockney california backyard" width="420"/>
 - Metadata: Fine Art Painting · `landscape` · `1536x1024` · Curated
 
 ```text
@@ -39,9 +47,9 @@ A flat, vibrant acrylic painting in the lineage of 1960s California modernism. T
 
 ### No. 139 · Color Field Abstract: Crimson and Ochre
 
-- Image: `docs/fine-art-painting/rothko-color-field-meditation.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fine-art-painting/rothko-color-field-meditation.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fine-art-painting/rothko-color-field-meditation.png)
 
-  <img src="../../../docs/fine-art-painting/rothko-color-field-meditation.png" alt="rothko color field meditation" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fine-art-painting/rothko-color-field-meditation.png" alt="rothko color field meditation" width="420"/>
 - Metadata: Fine Art Painting · `tall` · `2160x3840` · Curated
 
 ```text
@@ -50,9 +58,9 @@ A large-scale abstract painting in the lineage of mid-century Color Field expres
 
 ### No. 140 · Social Realism: The Great Foundry
 
-- Image: `docs/fine-art-painting/rivera-social-industrial-mural.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fine-art-painting/rivera-social-industrial-mural.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fine-art-painting/rivera-social-industrial-mural.png)
 
-  <img src="../../../docs/fine-art-painting/rivera-social-industrial-mural.png" alt="rivera social industrial mural" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/fine-art-painting/rivera-social-industrial-mural.png" alt="rivera social industrial mural" width="420"/>
 - Metadata: Fine Art Painting · `wide` · `2048x1152` · Curated
 
 ```text

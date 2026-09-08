@@ -4,11 +4,19 @@ Range: No. 26–30 · Count: 5
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: A film/animation still or storyboard with a deliberate sequence.
+- Necessary inputs: Shot or story beat, subject, medium, lighting, and per-panel actions if needed.
+- Style / scene tags: animation, noir, VHS, storyboard; cinema, narrative; 分镜, 动画.
+- Typical failures: Mixing camera directions; repeated beats; character changes between shots.
+- Related cases in this file: No. 26, No. 27, No. 28.
+
 ### No. 26 · Pixar-style 3D animation still (kitten)
 
-- Image: `docs/cinematic-animation/pixar-kitchen.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-animation/pixar-kitchen.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-animation/pixar-kitchen.png)
 
-  <img src="../../../docs/cinematic-animation/pixar-kitchen.png" alt="pixar kitchen" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-animation/pixar-kitchen.png" alt="pixar kitchen" width="420"/>
 - Metadata: Cinematic & Animation · `landscape` · `1536x1024` · Curated
 
 ```text
@@ -23,9 +31,9 @@ Art direction: full-CG Pixar aesthetic — subsurface scattering on ears and whi
 
 ### No. 27 · 1940s film-noir still
 
-- Image: `docs/cinematic-animation/noir-detective.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-animation/noir-detective.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-animation/noir-detective.png)
 
-  <img src="../../../docs/cinematic-animation/noir-detective.png" alt="noir detective" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-animation/noir-detective.png" alt="noir detective" width="420"/>
 - Metadata: Cinematic & Animation · `landscape` · `1536x1024` · Curated
 
 ```text
@@ -38,9 +46,9 @@ Lighting: classic chiaroscuro — single hard key light above right, venetian-bl
 
 ### No. 28 · Professional 6-panel film storyboard
 
-- Image: `docs/cinematic-animation/storyboard.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-animation/storyboard.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-animation/storyboard.png)
 
-  <img src="../../../docs/cinematic-animation/storyboard.png" alt="storyboard" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-animation/storyboard.png" alt="storyboard" width="420"/>
 - Metadata: Cinematic & Animation · `landscape` · `1536x1024` · Curated
 
 ```text
@@ -60,9 +68,9 @@ Art direction: classic animation-school storyboard — pencil line-work, grey ma
 
 ### No. 29 · Studio-Ghibli-style animation still
 
-- Image: `docs/cinematic-animation/ghibli-cottage.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-animation/ghibli-cottage.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-animation/ghibli-cottage.png)
 
-  <img src="../../../docs/cinematic-animation/ghibli-cottage.png" alt="ghibli cottage" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-animation/ghibli-cottage.png" alt="ghibli cottage" width="420"/>
 - Metadata: Cinematic & Animation · `landscape` · `1536x1024` · Curated
 
 ```text
@@ -73,9 +81,9 @@ Art direction: classic Miyazaki / Studio Ghibli watercolor-gouache style. Soft p
 
 ### No. 30 · VHS grocery-store chaos still
 
-- Image: `docs/cinematic-animation/vhs-grocery-chaos.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-animation/vhs-grocery-chaos.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-animation/vhs-grocery-chaos.png)
 
-  <img src="../../../docs/cinematic-animation/vhs-grocery-chaos.png" alt="vhs grocery chaos" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/cinematic-animation/vhs-grocery-chaos.png" alt="vhs grocery chaos" width="420"/>
 - Metadata: Cinematic & Animation · `landscape` · `1536x1024` · Author: Unknown · Source: [Reddit](https://www.reddit.com/r/ChatGPT/comments/1jk0p3v/tried_to_push_the_new_image_model_with_an/)
 
 ```text

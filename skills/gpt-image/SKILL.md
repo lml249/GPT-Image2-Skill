@@ -1,6 +1,6 @@
 ---
 name: gpt-image
-description: "Use this skill whenever a user asks to generate, create, draw, render, or edit images with GPT Image 2 / gpt-image-2, text-to-image, reference-image editing, inpainting, posters, typography, Chinese text, UI mockups, diagrams, or gallery prompts. Analyze the user's prompt, search the bundled Reference Gallery/craft files for matching design patterns, confer on direction when useful, then call the packaged `gpt-image` CLI or bundled `scripts/generate.py`. Do not write new image-generation code unless explicitly asked to modify this repo."
+description: "Generate or edit raster images with the packaged GPT Image 2 CLI when that image-generation backend is requested."
 metadata: {"openclaw":{"requires":{"anyBins":["gpt-image","uv","uvx"]},"primaryEnv":"OPENAI_API_KEY","homepage":"https://github.com/lml249/GPT-Image2-Skill"}}
 ---
 
@@ -13,7 +13,7 @@ Requires Python 3.11+ and either `gpt-image`, `uv`, or `uvx`. API calls use `OPE
 ## Operating loop
 
 1. **Classify request**: `generate`, `edit`, `inpaint`, or `multi-reference`; identify asset type, exact text, aspect ratio, references, safety constraints, and budget/quality.
-2. **Search references first**: open `references/gallery.md`; load/search the closest `references/gallery-<category>.md` file(s). Read actual `**Prompt**` text before choosing a pattern.
+2. **Use references when helpful**: for style exploration or an uncertain prompt, open `references/gallery.md`; match the output type, then style/scene tags and nearby cases. Read the matching category or reusable template only. A precise request can go directly to the existing CLI without a gallery tour.
 3. **Refine with craft**: load `references/craft.md` for dense text, diagrams, UI, data visualization, multi-panel layouts, weak prompts, or no close gallery match.
 4. **Confer when useful**: before costly/ambiguous/high-polish calls, present 1–3 matched directions plus planned size/quality; ask at most one concise question. Skip long discussion for precise “generate now” requests.
 5. **Preflight, no side effects**: use existing CLI/skill if present. Check command availability (`command -v gpt-image`), installed tool lists when the tool manager exists, or the runtime’s own skill registry when available. Do not assume a local home path in cloud/hosted runtimes.
@@ -21,7 +21,7 @@ Requires Python 3.11+ and either `gpt-image`, `uv`, or `uvx`. API calls use `OPE
 7. **Execute via CLI only**: call `gpt-image` or `scripts/generate.py`. Do not create a new `generate.py`, SDK wrapper, or ad-hoc script for normal image requests.
 8. **Report**: output file path(s), key flags, and one concise refinement suggestion if useful.
 
-Fast path: precise prompt + explicit “generate now” → quick reference/craft check, then CLI.
+Fast path: precise prompt and authorized generation → check required inputs and use the CLI.
 
 ## CLI resolution
 
@@ -94,17 +94,20 @@ Surface API errors verbatim enough for debugging; exit codes: `0` success, `1` A
 
 ## Reference loading
 
-- `references/gallery.md`: routing index for the 162-prompt Reference Gallery Atlas. Load first.
+- `references/gallery.md`: routing index for the Reference Gallery Atlas. Load when selecting an example or style direction.
 - `references/gallery-*.md`: concrete prompts, previews, paths, metadata, attribution. Load 1 category for normal requests; 2–3 for hybrids.
+- `references/template-*.md`: four complete templates for scientific scale diagrams, conceptual typography posters, corporate brochure visuals, and product development boards. Select through `references/gallery.md`; fill the chosen template's inputs and preserve exact user copy. Use the user's language for the final prompt. If only a prompt is requested, return it without calling the image API.
 - `references/craft.md`: prompt-craft checklist. Load for prompt repair, exact text, UI/data/diagram grammar, edit invariants, and multi-panel consistency.
 - `references/openai-cookbook.md`: official parameter/model semantics. Load for API behavior or model capability questions.
 
 Reference loading policy: load the smallest useful slice; never load all category files by default.
 
+Gallery previews use HTTPS URLs pinned to this repository's image revision, so a standalone skill install does not need the full image directory. Prompt text remains available offline. If a preview cannot be accessed, use its source-page link or the prompt text and state the visual-access limit. Gallery preview URLs are not local `-i` inputs; use actual user/reference files for edits.
+
 ## Verification
 
 - Before API call: confirm endpoint mode, size, quality, output path, and required reference/mask files.
-- After CLI call: report path(s) printed by the CLI and surface stderr on failure.
+- After CLI call: inspect the generated asset against the requested content and edit constraints; report actual output paths and relevant errors. Do not repeat paid calls after acceptance unless a defect or user request justifies it.
 - For edits/inpaints: verify `-i` paths exist; verify `-m` exists when used.
 
 Preserve `Curated` vs `Author + Source` metadata when adapting examples. Add new collected prompts to the Reference Gallery before README promotion.

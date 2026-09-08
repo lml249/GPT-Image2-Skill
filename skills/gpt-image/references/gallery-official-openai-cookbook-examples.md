@@ -4,11 +4,19 @@ Range: No. 96–99 · Count: 4
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: A worked example close to the cookbook infographic, portrait, logo, or comic.
+- Necessary inputs: Choose the artifact first, then its subject, exact text, and reference roles.
+- Style / scene tags: infographic, portrait, logo, comic; official examples; 官方示例.
+- Typical failures: Treating one example as a model capability guarantee; skipping task-specific constraints.
+- Related cases in this file: No. 96, No. 97, No. 98, No. 99.
+
 ### No. 96 · Automatic coffee machine infographic
 
-- Image: `docs/official-openai-cookbook/coffee-infographic.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/official-openai-cookbook/coffee-infographic.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/official-openai-cookbook/coffee-infographic.png)
 
-  <img src="../../../docs/official-openai-cookbook/coffee-infographic.png" alt="coffee infographic" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/official-openai-cookbook/coffee-infographic.png" alt="coffee infographic" width="420"/>
 - Metadata: Official OpenAI Cookbook Examples · `portrait` · `1024x1536` · Author: OpenAI · Source: [OpenAI Cookbook](https://github.com/openai/openai-cookbook/blob/main/examples/multimodal/image-gen-models-prompting-guide.ipynb)
 
 ```text
@@ -19,9 +27,9 @@ I'd like to understand technically and visually the flow.
 
 ### No. 97 · Photorealistic elderly sailor
 
-- Image: `docs/official-openai-cookbook/sailor.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/official-openai-cookbook/sailor.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/official-openai-cookbook/sailor.png)
 
-  <img src="../../../docs/official-openai-cookbook/sailor.png" alt="sailor" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/official-openai-cookbook/sailor.png" alt="sailor" width="420"/>
 - Metadata: Official OpenAI Cookbook Examples · `portrait` · `1024x1536` · Author: OpenAI · Source: [OpenAI Cookbook](https://github.com/openai/openai-cookbook/blob/main/examples/multimodal/image-gen-models-prompting-guide.ipynb)
 
 ```text
@@ -34,9 +42,9 @@ The image should feel honest and unposed, with real skin texture, worn materials
 
 ### No. 98 · Minimalist bakery logo — Field & Flour
 
-- Image: `docs/official-openai-cookbook/logo-bakery.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/official-openai-cookbook/logo-bakery.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/official-openai-cookbook/logo-bakery.png)
 
-  <img src="../../../docs/official-openai-cookbook/logo-bakery.png" alt="logo bakery" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/official-openai-cookbook/logo-bakery.png" alt="logo bakery" width="420"/>
 - Metadata: Official OpenAI Cookbook Examples · `square` · `1024x1024` · Author: OpenAI · Source: [OpenAI Cookbook](https://github.com/openai/openai-cookbook/blob/main/examples/multimodal/image-gen-models-prompting-guide.ipynb)
 
 ```text
@@ -48,9 +56,9 @@ Plain background. Deliver a single centered logo with generous padding. No water
 
 ### No. 99 · 4-panel pet comic strip
 
-- Image: `docs/official-openai-cookbook/comic-pet.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/official-openai-cookbook/comic-pet.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/official-openai-cookbook/comic-pet.png)
 
-  <img src="../../../docs/official-openai-cookbook/comic-pet.png" alt="comic pet" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/official-openai-cookbook/comic-pet.png" alt="comic pet" width="420"/>
 - Metadata: Official OpenAI Cookbook Examples · `portrait` · `1024x1536` · Author: OpenAI · Source: [OpenAI Cookbook](https://github.com/openai/openai-cookbook/blob/main/examples/multimodal/image-gen-models-prompting-guide.ipynb)
 
 ```text

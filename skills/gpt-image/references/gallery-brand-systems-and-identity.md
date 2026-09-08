@@ -4,11 +4,20 @@ Range: No. 60–62 · Count: 3
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: A brand identity board spanning multiple touchpoints.
+- Necessary inputs: Brand name, tone, palette/type rules, and required applications.
+- Style / scene tags: identity, wordmark, design system; branding, commerce; 品牌, 视觉系统.
+- Typical failures: Changing logo geometry between items; each touchpoint using a new palette.
+- Related cases in this file: No. 60, No. 61, No. 62.
+- Reusable template: [Corporate brochure visual system](template-corporate-brochure.md).
+
 ### No. 60 · Moss Radio brand identity showcase board
 
-- Image: `docs/brand-systems-identity/brand-identity-moss-radio.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/brand-systems-identity/brand-identity-moss-radio.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/brand-systems-identity/brand-identity-moss-radio.png)
 
-  <img src="../../../docs/brand-systems-identity/brand-identity-moss-radio.png" alt="brand identity moss radio" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/brand-systems-identity/brand-identity-moss-radio.png" alt="brand identity moss radio" width="420"/>
 - Metadata: Brand Systems & Identity · `square` · `1024x1024` · Author: @LexnLin · Source: [X](https://x.com/LexnLin/status/2046952493213429886)
 
 ```text
@@ -17,9 +26,9 @@ Create a square high-end brand identity showcase board for a fictional brand cal
 
 ### No. 61 · PS1 nostalgia reboot brand kit
 
-- Image: `docs/brand-systems-identity/ps1-reboot-brand-kit.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/brand-systems-identity/ps1-reboot-brand-kit.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/brand-systems-identity/ps1-reboot-brand-kit.png)
 
-  <img src="../../../docs/brand-systems-identity/ps1-reboot-brand-kit.png" alt="ps1 reboot brand kit" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/brand-systems-identity/ps1-reboot-brand-kit.png" alt="ps1 reboot brand kit" width="420"/>
 - Metadata: Brand Systems & Identity · `square` · `1024x1024` · Author: @den_turbin · Source: [X](https://x.com/den_turbin/status/2046863385791467773)
 
 ```text
@@ -28,9 +37,9 @@ Create a clean brand kit presented as one square modular board for a fictional r
 
 ### No. 62 · Playful brand kit: Mochi Metro
 
-- Image: `docs/brand-systems-identity/playful-brand-kit-mochi-metro.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/brand-systems-identity/playful-brand-kit-mochi-metro.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/brand-systems-identity/playful-brand-kit-mochi-metro.png)
 
-  <img src="../../../docs/brand-systems-identity/playful-brand-kit-mochi-metro.png" alt="playful brand kit mochi metro" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/brand-systems-identity/playful-brand-kit-mochi-metro.png" alt="playful brand kit mochi metro" width="420"/>
 - Metadata: Brand Systems & Identity · `square` · `1024x1024` · Author: @aleenaamiir · Source: [X](https://x.com/aleenaamiir/status/2047207315976368584)
 
 ```text

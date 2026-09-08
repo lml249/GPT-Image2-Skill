@@ -4,11 +4,19 @@ Range: No. 54–55 · Count: 2
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: A miniature district or map with consistent isometric projection.
+- Necessary inputs: Building roles, circulation, projection, scale, and palette.
+- Style / scene tags: isometric, miniature; city, fantasy map; 等距, 微缩.
+- Typical failures: Mixed vanishing points; inconsistent object scale; paths that do not connect.
+- Related cases in this file: No. 54, No. 55.
+
 ### No. 54 · Isometric miniature cafe district
 
-- Image: `docs/isometric/isometric-cafe.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/isometric/isometric-cafe.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/isometric/isometric-cafe.png)
 
-  <img src="../../../docs/isometric/isometric-cafe.png" alt="isometric cafe" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/isometric/isometric-cafe.png" alt="isometric cafe" width="420"/>
 - Metadata: Isometric · `square` · `1024x1024` · Author: EvoLinkAI · Source: [GitHub archive](https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts)
 
 ```text
@@ -17,9 +25,9 @@ A detailed isometric 3D miniature scene of a two-block cafe district, clean geom
 
 ### No. 55 · Isometric fantasy village map
 
-- Image: `docs/isometric/isometric-fantasy-village.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/isometric/isometric-fantasy-village.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/isometric/isometric-fantasy-village.png)
 
-  <img src="../../../docs/isometric/isometric-fantasy-village.png" alt="isometric fantasy village" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/isometric/isometric-fantasy-village.png" alt="isometric fantasy village" width="420"/>
 - Metadata: Isometric · `square` · `1024x1024` · Author: Unknown · Source: [Reddit](https://www.reddit.com/r/midjourney/comments/1hkqr4x/isometric_maps_prompts_included/)
 
 ```text

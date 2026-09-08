@@ -4,11 +4,19 @@ Range: No. 23–25 · Count: 3
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: Neon characters, retro-future districts, or nightlife design grids.
+- Necessary inputs: Subject, era cues, light sources, and grid roles for a board.
+- Style / scene tags: retro, cyberpunk, neon; nightlife, sci-fi; 复古, 赛博朋克.
+- Typical failures: Unmotivated neon everywhere; unreadable fake signage; palette drift across panels.
+- Related cases in this file: No. 23, No. 24, No. 25.
+
 ### No. 23 · Cyberpunk mecha girl over sea fortress
 
-- Image: `docs/retro-cyberpunk/cyberpunk-mecha.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/retro-cyberpunk/cyberpunk-mecha.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/retro-cyberpunk/cyberpunk-mecha.png)
 
-  <img src="../../../docs/retro-cyberpunk/cyberpunk-mecha.png" alt="cyberpunk mecha" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/retro-cyberpunk/cyberpunk-mecha.png" alt="cyberpunk mecha" width="420"/>
 - Metadata: Retro & Cyberpunk · `landscape` · `1536x1024` · Author: EvoLinkAI · Source: [GitHub archive](https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts)
 
 ```text
@@ -17,9 +25,9 @@ A mecha girl mid-teens, pale skin smudged with soot and salt spray, sharp amber 
 
 ### No. 24 · Neon Orchid District design board
 
-- Image: `docs/retro-cyberpunk/neon-orchid-district-board.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/retro-cyberpunk/neon-orchid-district-board.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/retro-cyberpunk/neon-orchid-district-board.png)
 
-  <img src="../../../docs/retro-cyberpunk/neon-orchid-district-board.png" alt="neon orchid district board" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/retro-cyberpunk/neon-orchid-district-board.png" alt="neon orchid district board" width="420"/>
 - Metadata: Retro & Cyberpunk · `landscape` · `1536x1024` · Curated
 
 ```text
@@ -28,9 +36,9 @@ Create a cyberpunk character-and-city design board in a premium magazine-layout 
 
 ### No. 25 · Synth Moon Crew alien nightlife grid
 
-- Image: `docs/retro-cyberpunk/synth-moon-crew-grid.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/retro-cyberpunk/synth-moon-crew-grid.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/retro-cyberpunk/synth-moon-crew-grid.png)
 
-  <img src="../../../docs/retro-cyberpunk/synth-moon-crew-grid.png" alt="synth moon crew grid" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/retro-cyberpunk/synth-moon-crew-grid.png" alt="synth moon crew grid" width="420"/>
 - Metadata: Retro & Cyberpunk · `square` · `1024x1024` · Curated
 
 ```text

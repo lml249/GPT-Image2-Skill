@@ -4,11 +4,19 @@ Range: No. 155–156 · Count: 2
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: A visitor or scenic wayfinding map with usable route hierarchy.
+- Necessary inputs: Destinations, entrances, real route relations, exact labels, and legend.
+- Style / scene tags: wayfinding, illustrated map; events, tourism; 导览, 活动.
+- Typical failures: Disconnected routes; missing entrances; decorative symbols without a legend.
+- Related cases in this file: No. 155, No. 156.
+
 ### No. 155 · Zoo visitor wayfinding map
 
-- Image: `docs/events-experience/zoo-visitor-wayfinding-map.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/events-experience/zoo-visitor-wayfinding-map.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/events-experience/zoo-visitor-wayfinding-map.png)
 
-  <img src="../../../docs/events-experience/zoo-visitor-wayfinding-map.png" alt="zoo visitor wayfinding map" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/events-experience/zoo-visitor-wayfinding-map.png" alt="zoo visitor wayfinding map" width="420"/>
 - Metadata: Events & Experience · `landscape` · `1536x1024` · Curated
 
 ```text
@@ -17,9 +25,9 @@ Design a polished visitor wayfinding map for a fictional modern city zoo named "
 
 ### No. 156 · Huashan 5A scenic wayfinding map
 
-- Image: `docs/events-experience/huashan-5a-scenic-wayfinding-map.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/events-experience/huashan-5a-scenic-wayfinding-map.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/events-experience/huashan-5a-scenic-wayfinding-map.png)
 
-  <img src="../../../docs/events-experience/huashan-5a-scenic-wayfinding-map.png" alt="huashan 5a scenic wayfinding map" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/events-experience/huashan-5a-scenic-wayfinding-map.png" alt="huashan 5a scenic wayfinding map" width="420"/>
 - Metadata: Events & Experience · `landscape` · `1536x1024` · Curated
 
 ```text

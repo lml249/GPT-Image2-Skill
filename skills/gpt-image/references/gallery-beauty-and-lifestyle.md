@@ -4,11 +4,19 @@ Range: No. 153–154 · Count: 2
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: A skincare/fragrance still life within a believable daily ritual.
+- Necessary inputs: Hero product, materials, everyday props, palette, and time-of-day light.
+- Style / scene tags: quiet luxury, still life; beauty, lifestyle; 美妆, 生活方式.
+- Typical failures: Fake product labels; too many props; synthetic-looking stone or glass.
+- Related cases in this file: No. 153, No. 154.
+
 ### No. 153 · Quiet-luxury skincare morning tray
 
-- Image: `docs/beauty-lifestyle/skincare-morning-routine-tray.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/beauty-lifestyle/skincare-morning-routine-tray.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/beauty-lifestyle/skincare-morning-routine-tray.png)
 
-  <img src="../../../docs/beauty-lifestyle/skincare-morning-routine-tray.png" alt="skincare morning routine tray" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/beauty-lifestyle/skincare-morning-routine-tray.png" alt="skincare morning routine tray" width="420"/>
 - Metadata: Beauty & Lifestyle · `portrait` · `1024x1536` · Curated
 
 ```text
@@ -17,9 +25,9 @@ Create a 3:4 vertical beauty lifestyle photograph for a premium skincare morning
 
 ### No. 154 · Fragrance evening ritual vanity
 
-- Image: `docs/beauty-lifestyle/fragrance-evening-ritual-vanity.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/beauty-lifestyle/fragrance-evening-ritual-vanity.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/beauty-lifestyle/fragrance-evening-ritual-vanity.png)
 
-  <img src="../../../docs/beauty-lifestyle/fragrance-evening-ritual-vanity.png" alt="fragrance evening ritual vanity" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/beauty-lifestyle/fragrance-evening-ritual-vanity.png" alt="fragrance evening ritual vanity" width="420"/>
 - Metadata: Beauty & Lifestyle · `portrait` · `1024x1536` · Curated
 
 ```text

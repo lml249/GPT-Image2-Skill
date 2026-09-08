@@ -4,11 +4,20 @@ Range: No. 122–128 · Count: 7
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: A teaching poster or labeled scientific structure.
+- Necessary inputs: Audience, verified subject structure/facts, views, exact labels, and units.
+- Style / scene tags: wall chart, anatomy, scientific plate; education, science; 科学, 教育.
+- Typical failures: Incorrect anatomy or hierarchy; missing units; plausible-looking but unverified labels.
+- Related cases in this file: No. 122, No. 125, No. 128.
+- Reusable template: [Scientific scale diagram](template-scientific-scale.md).
+
 ### No. 122 · Anatomy Poster
 
-- Image: `docs/scientific-educational/human-anatomy-muscular-poster.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/human-anatomy-muscular-poster.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/human-anatomy-muscular-poster.png)
 
-  <img src="../../../docs/scientific-educational/human-anatomy-muscular-poster.png" alt="human anatomy muscular poster" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/human-anatomy-muscular-poster.png" alt="human anatomy muscular poster" width="420"/>
 - Metadata: Scientific & Educational · `tall` · `2160x3840` · Curated
 
 ```text
@@ -17,9 +26,9 @@ Create a clean educational anatomy poster showing the human muscular system in a
 
 ### No. 123 · Skeletal System Poster
 
-- Image: `docs/scientific-educational/human-anatomy-skeletal-poster.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/human-anatomy-skeletal-poster.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/human-anatomy-skeletal-poster.png)
 
-  <img src="../../../docs/scientific-educational/human-anatomy-skeletal-poster.png" alt="human anatomy skeletal poster" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/human-anatomy-skeletal-poster.png" alt="human anatomy skeletal poster" width="420"/>
 - Metadata: Scientific & Educational · `tall` · `2160x3840` · Curated
 
 ```text
@@ -28,9 +37,9 @@ Create a clean educational anatomy poster showing the human skeletal system in a
 
 ### No. 124 · Circulatory System Poster
 
-- Image: `docs/scientific-educational/human-anatomy-circulatory-poster.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/human-anatomy-circulatory-poster.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/human-anatomy-circulatory-poster.png)
 
-  <img src="../../../docs/scientific-educational/human-anatomy-circulatory-poster.png" alt="human anatomy circulatory poster" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/human-anatomy-circulatory-poster.png" alt="human anatomy circulatory poster" width="420"/>
 - Metadata: Scientific & Educational · `tall` · `2160x3840` · Curated
 
 ```text
@@ -39,9 +48,9 @@ Create a clean educational anatomy poster showing the human circulatory system i
 
 ### No. 125 · Periodic Table Spectral Variant
 
-- Image: `docs/scientific-educational/periodic-table-spectral-variant.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/periodic-table-spectral-variant.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/periodic-table-spectral-variant.png)
 
-  <img src="../../../docs/scientific-educational/periodic-table-spectral-variant.png" alt="periodic table spectral variant" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/periodic-table-spectral-variant.png" alt="periodic table spectral variant" width="420"/>
 - Metadata: Scientific & Educational · `wide` · `2048x1152` · Curated
 
 ```text
@@ -50,9 +59,9 @@ Design a distinctive periodic table poster variant where each element tile is co
 
 ### No. 126 · Tree of Life Poster
 
-- Image: `docs/scientific-educational/tree-of-life-phylogeny-poster.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/tree-of-life-phylogeny-poster.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/tree-of-life-phylogeny-poster.png)
 
-  <img src="../../../docs/scientific-educational/tree-of-life-phylogeny-poster.png" alt="tree of life phylogeny poster" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/tree-of-life-phylogeny-poster.png" alt="tree of life phylogeny poster" width="420"/>
 - Metadata: Scientific & Educational · `wide` · `2048x1152` · Curated
 
 ```text
@@ -61,9 +70,9 @@ Generate an elegant scientific poster visualizing a stylized tree of life as a r
 
 ### No. 127 · Weather Systems Diagram
 
-- Image: `docs/scientific-educational/weather-systems-fronts-diagram.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/weather-systems-fronts-diagram.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/weather-systems-fronts-diagram.png)
 
-  <img src="../../../docs/scientific-educational/weather-systems-fronts-diagram.png" alt="weather systems fronts diagram" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/weather-systems-fronts-diagram.png" alt="weather systems fronts diagram" width="420"/>
 - Metadata: Scientific & Educational · `wide` · `2048x1152` · Curated
 
 ```text
@@ -72,9 +81,9 @@ Create a polished meteorology infographic showing a mid-latitude cyclone system 
 
 ### No. 128 · Geological Strata Cross-Section
 
-- Image: `docs/scientific-educational/geological-strata-cross-section.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/geological-strata-cross-section.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/geological-strata-cross-section.png)
 
-  <img src="../../../docs/scientific-educational/geological-strata-cross-section.png" alt="geological strata cross section" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/scientific-educational/geological-strata-cross-section.png" alt="geological strata cross section" width="420"/>
 - Metadata: Scientific & Educational · `wide` · `2048x1152` · Curated
 
 ```text

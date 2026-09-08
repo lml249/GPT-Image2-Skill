@@ -342,11 +342,15 @@ Distilled from OpenAI's [official GPT Image prompting guide](https://github.com/
 6. **One hero, supporting cast.** Complex scenes work best when one subject is clearly primary and the rest is framed as supporting detail.
 7. **Use `quality="high"` for in-image text, dense diagrams, small labels, and multi-panel layouts.** Those cases degrade visibly at `medium`.
 
-**The skill ships four local reference surfaces:**
-- [`skills/gpt-image/references/gallery.md`](skills/gpt-image/references/gallery.md) — lightweight routing index for the split Reference Gallery Atlas. It should be read first to pick a category; it does **not** contain the full prompt dump.
+**The skill bundles 162 gallery cases across 31 categories, plus four reusable templates:**
+
+- [`skills/gpt-image/references/gallery.md`](skills/gpt-image/references/gallery.md) — routing index for choosing an output type, style/scene tags, and nearby examples. Category headers list necessary inputs and typical failures. Precise, authorized generation requests can go directly to the CLI.
 - `skills/gpt-image/references/gallery-*.md` — one category per file, loaded only when relevant, e.g. [`gallery-product-and-food.md`](skills/gpt-image/references/gallery-product-and-food.md), [`gallery-ui-ux-mockups.md`](skills/gpt-image/references/gallery-ui-ux-mockups.md), [`gallery-research-paper-figures.md`](skills/gpt-image/references/gallery-research-paper-figures.md). This keeps the skill useful without overflowing context.
-- [`skills/gpt-image/references/craft.md`](skills/gpt-image/references/craft.md) — expanded 19-section prompt-craft checklist covering gallery-first usage, JSON/config-style prompts, multi-panel boards, UI specs, data/diagram grammar, edit invariants, reference workflows, dense text, and category mini-schemas.
+- Reusable templates: [scientific scale diagrams](skills/gpt-image/references/template-scientific-scale.md), [conceptual typography posters](skills/gpt-image/references/template-conceptual-typography.md), [corporate brochure visuals](skills/gpt-image/references/template-corporate-brochure.md), and [product development boards](skills/gpt-image/references/template-product-development.md). Each contains the full prompt, inputs, defaults, pitfalls, and attribution; load only the relevant template. Brochure output is a raster visual concept. Templates are counted separately from the 162 cases. [Sources and license](skills/gpt-image/references/template-sources.md).
+- [`skills/gpt-image/references/craft.md`](skills/gpt-image/references/craft.md) — 19-section prompt-craft checklist covering references on demand, JSON/config-style prompts, multi-panel boards, UI specs, data/diagram grammar, edit invariants, reference workflows, dense text, and category mini-schemas.
 - [`skills/gpt-image/references/openai-cookbook.md`](skills/gpt-image/references/openai-cookbook.md) — verbatim Markdown capture of OpenAI's cookbook (1004 lines), including the authoritative parameter-coverage table and every §4 / §5 use-case example.
+
+Skill gallery previews use HTTPS image URLs pinned to this repository's image revision, with source-page links for inspection. Standalone installs keep all prompt text locally without requiring the full image directory; previews require network access. Prompt-only requests return the prompt without calling the image API. CLI options and current-provider credential handling are unchanged.
 
 </details>
 

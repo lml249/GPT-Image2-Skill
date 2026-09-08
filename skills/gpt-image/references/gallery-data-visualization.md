@@ -4,11 +4,19 @@ Range: No. 107–111 · Count: 5
 
 Load this file only when the request matches this category. For cross-cutting writing rules, pair it with `craft.md`.
 
+## Selection notes
+
+- Use when: A visual chart concept with explicit encodings and supplied values.
+- Necessary inputs: Chart family, data/labels, units, scale, and visual encoding.
+- Style / scene tags: small multiples, network, chord, treemap, map; data, editorial; 数据可视化.
+- Typical failures: Inconsistent axes; invented numbers; area/width that contradicts data. Use plotting tools when quantitative precision is required.
+- Related cases in this file: No. 107, No. 109, No. 111.
+
 ### No. 107 · Small Multiples Climate Grid
 
-- Image: `docs/data-visualization/small-multiples-climate-grid.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/data-visualization/small-multiples-climate-grid.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/data-visualization/small-multiples-climate-grid.png)
 
-  <img src="../../../docs/data-visualization/small-multiples-climate-grid.png" alt="small multiples climate grid" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/data-visualization/small-multiples-climate-grid.png" alt="small multiples climate grid" width="420"/>
 - Metadata: Data Visualization · `wide` · `2048x1152` · Curated
 
 ```text
@@ -17,9 +25,9 @@ Produce a clean editorial data visualization poster showing a 4x3 small-multiple
 
 ### No. 108 · Network Graph Collaboration Map
 
-- Image: `docs/data-visualization/network-graph-collaboration-map.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/data-visualization/network-graph-collaboration-map.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/data-visualization/network-graph-collaboration-map.png)
 
-  <img src="../../../docs/data-visualization/network-graph-collaboration-map.png" alt="network graph collaboration map" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/data-visualization/network-graph-collaboration-map.png" alt="network graph collaboration map" width="420"/>
 - Metadata: Data Visualization · `landscape` · `1536x1024` · Curated
 
 ```text
@@ -28,9 +36,9 @@ Generate a sophisticated network graph visualization on a dark charcoal canvas s
 
 ### No. 109 · Chord Diagram of Energy Flows
 
-- Image: `docs/data-visualization/chord-diagram-energy-flows.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/data-visualization/chord-diagram-energy-flows.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/data-visualization/chord-diagram-energy-flows.png)
 
-  <img src="../../../docs/data-visualization/chord-diagram-energy-flows.png" alt="chord diagram energy flows" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/data-visualization/chord-diagram-energy-flows.png" alt="chord diagram energy flows" width="420"/>
 - Metadata: Data Visualization · `square` · `1024x1024` · Curated
 
 ```text
@@ -39,9 +47,9 @@ Create a publication-quality chord diagram visualizing fictional regional energy
 
 ### No. 110 · Treemap Budget Allocation
 
-- Image: `docs/data-visualization/treemap-startup-budget-allocation.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/data-visualization/treemap-startup-budget-allocation.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/data-visualization/treemap-startup-budget-allocation.png)
 
-  <img src="../../../docs/data-visualization/treemap-startup-budget-allocation.png" alt="treemap startup budget allocation" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/data-visualization/treemap-startup-budget-allocation.png" alt="treemap startup budget allocation" width="420"/>
 - Metadata: Data Visualization · `landscape` · `1536x1024` · Curated
 
 ```text
@@ -50,9 +58,9 @@ Design a modern treemap infographic showing a fictional company budget allocatio
 
 ### No. 111 · Geographic Choropleth Yield Map
 
-- Image: `docs/data-visualization/geographic-choropleth-harvest-yield.png`
+- Image: [Preview](https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/data-visualization/geographic-choropleth-harvest-yield.png) · [Image source](https://github.com/lml249/GPT-Image2-Skill/blob/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/data-visualization/geographic-choropleth-harvest-yield.png)
 
-  <img src="../../../docs/data-visualization/geographic-choropleth-harvest-yield.png" alt="geographic choropleth harvest yield" width="420"/>
+  <img src="https://raw.githubusercontent.com/lml249/GPT-Image2-Skill/76fb666a1aea94c463014351429ca1fed6bcf4f4/docs/data-visualization/geographic-choropleth-harvest-yield.png" alt="geographic choropleth harvest yield" width="420"/>
 - Metadata: Data Visualization · `wide` · `2048x1152` · Curated
 
 ```text

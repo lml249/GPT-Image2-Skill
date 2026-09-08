@@ -4,7 +4,7 @@ Cross-cutting principles distilled from the full 162-prompt Gallery Atlas. Use t
 
 ## Table of contents
 
-0. Use the Reference Gallery before writing from scratch
+0. Use references when they improve the prompt
 1. Exact text goes in quotes
 2. Put canvas, aspect ratio, and layout before subject
 3. JSON / config-style prompts are a core pattern
@@ -24,9 +24,11 @@ Cross-cutting principles distilled from the full 162-prompt Gallery Atlas. Use t
 17. Attribution and gallery metadata
 18. Safety and copyright notes
 
-## 0. Use the Reference Gallery before writing from scratch
+## 0. Use references when they improve the prompt
 
-Before drafting a prompt, open `gallery.md` as the category index, then read 3–8 nearby cases from the matching `gallery-<category>.md` file. The skill should not behave like a bare CLI wrapper: it should remix the repo's collected patterns.
+For an uncertain style, incomplete brief, or prompt repair, use `gallery.md` to select an output category or one of the four reusable templates. Match output type first, then style and scene tags; read the selected file and only the nearby cases needed. Category headers supply necessary inputs and typical failures. Template files contain the full prompt, fillable variables, defaults, and attribution.
+
+A precise, authorized generation request can go directly to the existing CLI after checking its inputs. Do not require a reference tour or an extra style decision. When adapting a template, preserve the user's exact visible text, translate surrounding instructions into the requested language, and fill or remove all template slots. Ask only for missing information that materially changes the result; use stated defaults for routine design choices. A request for a prompt alone ends with the prompt.
 
 Fast routing examples:
 - Anime/manga or multi-character boards → No. 1–12.
