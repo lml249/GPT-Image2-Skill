@@ -6,7 +6,7 @@
 #     "python-dotenv>=1.0",
 # ]
 # ///
-"""General-purpose CLI for OpenAI GPT Image 2.
+"""General-purpose CLI for OpenAI GPT Image models.
 
 Mirrors the two official endpoints from the OpenAI cookbook using the official
 `openai` Python SDK:
@@ -21,8 +21,11 @@ returned PNG/JPEG/WebP bytes to disk and prints the output path(s) on stdout.
 Exit codes: 0 success, 1 API error, 2 bad args.
 
 Examples:
-    # Basic generate, auto filename, 1K square
+    # Basic generate with the default GPT Image 2.5 Sunburst model
     gpt-image -p "a cat astronaut on the moon"
+
+    # Faster GPT Image 2.5 Flare model
+    gpt-image -p "a cat astronaut on the moon" --model gpt-image-2.5-flare --quality medium
 
     # Named output, portrait 2K, high quality
     gpt-image -p "Chinese tea poster" -f poster.png --size 2k --quality high
@@ -79,7 +82,7 @@ SIZE_SHORTCUTS: dict[str, str] = {
     "tall": "2160x3840",
 }
 
-DEFAULT_MODEL = "gpt-image-2"
+DEFAULT_MODEL = "gpt-image-2.5-sunburst"
 DEFAULT_SIZE = "1024x1024"
 DEFAULT_MODERATION = "low"
 
@@ -105,10 +108,27 @@ def model_rejects_input_fidelity(model: str) -> bool:
     return model.strip().lower().startswith("gpt-image-2")
 
 
+def validate_model_options(args: argparse.Namespace, parser: argparse.ArgumentParser) -> None:
+    """Reject options that the legacy GPT Image 2 model does not support."""
+    model = args.model.strip().lower()
+    if model != "gpt-image-2":
+        return
+    if args.quality in {"xhigh", "max"}:
+        parser.error(
+            f"--quality {args.quality} is supported by GPT Image 2.5 only; "
+            "use --model gpt-image-2.5-sunburst or --model gpt-image-2.5-flare"
+        )
+    if args.background == "transparent":
+        parser.error(
+            "--background transparent is supported by GPT Image 2.5 only; "
+            "use --model gpt-image-2.5-sunburst or --model gpt-image-2.5-flare"
+        )
+
+
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(
         prog="gpt-image",
-        description="Call OpenAI GPT Image 2 (generations or edits) via the official openai Python SDK.",
+        description="Call GPT Image 2.5 or GPT Image 2 (generations or edits) via the official openai Python SDK.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     p.add_argument("-p", "--prompt", required=True, help="Text prompt / edit instruction.")
@@ -127,7 +147,10 @@ def parse_args() -> argparse.Namespace:
         help="Alpha-channel PNG mask (opaque = preserved, transparent = regenerated). "
              "Edits endpoint only; requires -i.",
     )
-    p.add_argument("--model", default=DEFAULT_MODEL, help=f"Model ID (default {DEFAULT_MODEL}).")
+    p.add_argument(
+        "--model", default=DEFAULT_MODEL,
+        help=f"Model ID: gpt-image-2.5-sunburst (default), gpt-image-2.5-flare, or gpt-image-2.",
+    )
     p.add_argument(
         "--size", default=DEFAULT_SIZE,
         help="Image size. Accepts literals (1024x1024, 1536x1024, 2048x2048, 3840x2160, "
@@ -135,14 +158,14 @@ def parse_args() -> argparse.Namespace:
              "(1k, 2k, 4k, portrait, landscape, square, wide, tall). Default 1024x1024.",
     )
     p.add_argument(
-        "--quality", default="high", choices=["auto", "low", "medium", "high"],
-        help="Rendering fidelity / budget knob (cost scales ~10× per step). Default high. "
-             "Use low for cheap drafts, medium for normal exploration, high for final text-heavy or shipping-facing assets.",
+        "--quality", default="high", choices=["auto", "low", "medium", "high", "xhigh", "max"],
+        help="Rendering fidelity / budget knob. GPT Image 2.5 supports auto, low, medium, high, xhigh, and max; default high. "
+             "Use low for cheap drafts, medium for normal exploration, high for final text-heavy assets, and xhigh/max only when extra fidelity is needed.",
     )
     p.add_argument("-n", "--n", type=int, default=1, help="Number of images to return. Default 1.")
     p.add_argument(
-        "--background", default=None, choices=["auto", "opaque"],
-        help="`opaque` disables transparency. Default API-side auto.",
+        "--background", default=None, choices=["auto", "opaque", "transparent"],
+        help="Background mode. GPT Image 2.5 supports auto, opaque, and transparent; default API-side auto.",
     )
     p.add_argument(
         "--moderation", default=DEFAULT_MODERATION, choices=["auto", "low"],
@@ -150,7 +173,7 @@ def parse_args() -> argparse.Namespace:
     )
     p.add_argument(
         "--input-fidelity", dest="input_fidelity", default=None, choices=["low", "high"],
-        help="Edits only. gpt-image-2 rejects this parameter, so the CLI drops it locally before calling the API.",
+        help="Edits only. GPT Image 2 and 2.5 reject this parameter, so the CLI drops it locally before calling the API.",
     )
     p.add_argument(
         "--format", dest="output_format", default=None,
@@ -165,7 +188,9 @@ def parse_args() -> argparse.Namespace:
         "--user", default=None,
         help="Optional end-user identifier forwarded to OpenAI for abuse tracking.",
     )
-    return p.parse_args()
+    args = p.parse_args()
+    validate_model_options(args, p)
+    return args
 
 
 def _filter_none(d: dict[str, Any]) -> dict[str, Any]:
@@ -200,7 +225,7 @@ def call_edit(client: OpenAI, args: argparse.Namespace) -> Any:
     input_fidelity = args.input_fidelity
     if input_fidelity and model_rejects_input_fidelity(args.model):
         print(
-            "note: dropping --input-fidelity because gpt-image-2 rejects that parameter.",
+            "note: dropping --input-fidelity because GPT Image models reject that parameter.",
             file=sys.stderr,
         )
         input_fidelity = None

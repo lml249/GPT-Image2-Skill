@@ -1,18 +1,19 @@
 ---
 name: gpt-image
-description: "Generate or edit raster images with the packaged GPT Image 2 CLI when that image-generation backend is requested."
+description: "Generate or edit raster images with the packaged GPT Image 2.5 or GPT Image 2 CLI when that image-generation backend is requested."
 metadata: {"openclaw":{"requires":{"anyBins":["gpt-image","uv","uvx"]},"primaryEnv":"OPENAI_API_KEY","homepage":"https://github.com/lml249/GPT-Image2-Skill"}}
 ---
 
 # gpt-image
 
-Agent runbook for GPT Image 2 generation/editing. Use the prompt library + packaged CLI. Do not reimplement image API code.
+Agent runbook for GPT Image 2.5 and GPT Image 2 generation/editing. Use the prompt library + packaged CLI. Do not reimplement image API code.
 
 Requires Python 3.11+ and either `gpt-image`, `uv`, or `uvx`. API calls use `OPENAI_API_KEY` or the current Codex provider and may incur API charges.
 
 ## Operating loop
 
 1. **Classify request**: `generate`, `edit`, `inpaint`, or `multi-reference`; identify asset type, exact text, aspect ratio, references, safety constraints, and budget/quality.
+   Use `gpt-image-2.5-sunburst` by default for quality and complex edits; use `gpt-image-2.5-flare` when speed matters. Keep `gpt-image-2` only when a provider or existing workflow requires it.
 2. **Use references when helpful**: for style exploration or an uncertain prompt, open `references/gallery.md`; match the output type, then style/scene tags and nearby cases. Read the matching category or reusable template only. A precise request can go directly to the existing CLI without a gallery tour.
 3. **Refine with craft**: load `references/craft.md` for dense text, diagrams, UI, data visualization, multi-panel layouts, weak prompts, or no close gallery match.
 4. **Confer when useful**: before costly/ambiguous/high-polish calls, present 1–3 matched directions plus planned size/quality; ask at most one concise question. Skip long discussion for precise “generate now” requests.
@@ -59,11 +60,11 @@ uvx --from git+https://github.com/lml249/GPT-Image2-Skill gpt-image -p "PROMPT" 
 | `-f, --file` | path | Output path; auto-named if omitted |
 | `-i, --image` | repeatable path | Use edits endpoint; supports multiple references |
 | `-m, --mask` | PNG path | Inpaint with alpha mask; requires `-i` |
-| `--model` | default `gpt-image-2` | Image model |
+| `--model` | default `gpt-image-2.5-sunburst` | `gpt-image-2.5-sunburst`, `gpt-image-2.5-flare`, or compatible legacy/custom model ID |
 | `--size` | `1k`, `2k`, `4k`, `portrait`, `landscape`, `square`, `wide`, `tall`, or literal | Canvas size |
-| `--quality` | `low`, `medium`, `high`, `auto` | Cost/quality dial |
+| `--quality` | `auto`, `low`, `medium`, `high`, `xhigh`, `max` | Cost/quality dial; default `high` |
 | `-n, --n` | integer | Number of images |
-| `--background` | `auto`, `opaque` | Generation background |
+| `--background` | `auto`, `opaque`, `transparent` | Generation background; transparent is for GPT Image 2.5 |
 | `--moderation` | `auto`, `low` | Generation moderation setting |
 | `--format` | `png`, `jpeg`, `webp` | Output encoding |
 | `--compression` | `0-100` | JPEG/WebP compression |
@@ -73,6 +74,7 @@ Quality policy:
 - `low`: cheap drafts, broad exploration, many variants.
 - `medium`: normal exploration, style probing, balanced cost.
 - `high`: final assets, Chinese text, posters, diagrams, UI, paper figures, dense labels.
+- `xhigh` / `max`: use only when high does not meet a demonstrated fidelity requirement; they increase latency and cost.
 
 Size policy:
 - default/social square: `1k` / `1024x1024`
@@ -98,7 +100,8 @@ Surface API errors verbatim enough for debugging; exit codes: `0` success, `1` A
 - `references/gallery-*.md`: concrete prompts, previews, paths, metadata, attribution. Load 1 category for normal requests; 2–3 for hybrids.
 - `references/template-*.md`: four complete templates for scientific scale diagrams, conceptual typography posters, corporate brochure visuals, and product development boards. Select through `references/gallery.md`; fill the chosen template's inputs and preserve exact user copy. Use the user's language for the final prompt. If only a prompt is requested, return it without calling the image API.
 - `references/craft.md`: prompt-craft checklist. Load for prompt repair, exact text, UI/data/diagram grammar, edit invariants, and multi-panel consistency.
-- `references/openai-cookbook.md`: official parameter/model semantics. Load for API behavior or model capability questions.
+- `references/openai-cookbook.md`: official GPT Image 2 parameter/model semantics. Load for API behavior or legacy compatibility questions.
+- `references/model-gpt-image-2.5.md`: model selection, migration checklist, supported 2.5 parameters, and official sources. Load when choosing between Sunburst, Flare, and GPT Image 2.
 
 Reference loading policy: load the smallest useful slice; never load all category files by default.
 

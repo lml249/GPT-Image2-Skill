@@ -1,5 +1,5 @@
-<h1 align="center">GPT Image 2 Prompt Gallery + Agentic Skill + CLI</h1>
-<p align="center"><em>OpenAI GPT Image 2 Prompt Gallery、Image Prompt Library、Agentic Skill + CLI — 面向支持 Skill 的 Agent 运行时的精选可复用提示词与可运行示例。</em></p>
+<h1 align="center">GPT Image 2.5 Prompt Gallery + Agentic Skill + CLI</h1>
+<p align="center"><em>OpenAI GPT Image 2.5 Prompt Gallery、Image Prompt Library、Agentic Skill + CLI — 面向支持 Skill 的 Agent 运行时的精选可复用提示词与可运行示例。</em></p>
 
 <p align="center">
   <a href="README.md">English</a> · <a href="README.zh.md"><strong>中文</strong></a>
@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://github.com/wuyoscar/gpt_image_2_skill/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"/></a>
   <a href="https://github.com/wuyoscar/gpt_image_2_skill/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a>
-  <img src="https://img.shields.io/badge/model-gpt--image--2-purple.svg" alt="模型: gpt-image-2"/>
+  <img src="https://img.shields.io/badge/model-gpt--image--2.5-purple.svg" alt="模型: gpt-image-2.5"/>
   <img src="https://img.shields.io/badge/python-%E2%89%A53.11-blue.svg" alt="Python ≥ 3.11"/>
 </p>
 
@@ -63,7 +63,7 @@
 
 ## 🔎 这个仓库适合什么场景
 
-你可以把它当作 **GPT Image 2 Prompt Gallery**、**Image Prompt Library**、**Text-to-Image Prompt Collection**、**Prompt-to-Image 示例仓库**、**Codex / Claude Code Agent Skill** 和 **gpt-image-2 CLI**。目前收录了科研配图、海报设计、UI Mockup、游戏 HUD、动漫 / 漫画、摄影风格、字体设计、地图导航、纹身设计，以及参考图编辑等 AI image prompts / examples。
+你可以把它当作 **GPT Image 2.5 Prompt Gallery**、**Image Prompt Library**、**Text-to-Image Prompt Collection**、**Prompt-to-Image 示例仓库**、**Codex / Claude Code Agent Skill** 和 **gpt-image CLI**。目前收录了科研配图、海报设计、UI Mockup、游戏 HUD、动漫 / 漫画、摄影风格、字体设计、地图导航、纹身设计，以及参考图编辑等 AI image prompts / examples。
 
 > 这个项目并不是想收集越多 Prompt 越好。我们更想保留一组有代表性的例子：展示 GPT Image 2 能做什么，以及这些能力应该怎么用。也很感谢大家喜欢这个小 gallery 🫶；后续如果有时间，我也会把背后的自动化 patch / update 流程分享出来。
 
@@ -238,7 +238,7 @@ OPENAI_API_KEY="" uv run skills/gpt-image/scripts/generate.py -p "a cat astronau
 gpt-image -p "晚上10点的逼真便利店" --size 1k --quality high -f store.png
 ```
 
-底层实现：`POST /v1/images/generations`，使用 `model=gpt-image-2`。
+底层实现：`POST /v1/images/generations`，默认使用 `model=gpt-image-2.5-sunburst`。需要速度时使用 `--model gpt-image-2.5-flare`，需要兼容旧工作流时使用 `--model gpt-image-2`。
 
 ### 文字 + 参考图像 → 图像（编辑）
 
@@ -256,7 +256,7 @@ gpt-image -p "将天空替换为极光" \
   -i photo.jpg -m sky_mask.png -f aurora.png
 ```
 
-底层实现：`POST /v1/images/edits`（多部分表单），这是 OpenAI Cookbook 中的官方接口。`gpt-image-2` 支持 `image`、`mask`、`prompt`、`size`、`quality`、`background`、`output_format` 和 `n`。支持多个 `-i` 输入以进行多参考图像编辑。
+底层实现：`POST /v1/images/edits`（多部分表单），这是 OpenAI Cookbook 中的官方接口。GPT Image 2.5 支持 `image`、`mask`、`prompt`、`size`、`quality`、`background`、`output_format` 和 `n`，支持多个 `-i` 输入进行多参考图像编辑。配置的 provider 必须路由所选模型；本 skill 不会更换 provider URL 或凭据。
 
 ### 参数（完整）
 
@@ -269,11 +269,11 @@ gpt-image -p "将天空替换为极光" \
 | `-f, --file` | 路径 | `./fig/YYYY-MM-DD-HH-MM-SS-<slug>.png` | 两者 | 明确输出路径。 |
 | `-i, --image` | 路径（可重复） | — | 编辑 | 存在时走 `/v1/images/edits` 路由。 |
 | `-m, --mask` | 路径（PNG，带alpha通道） | — | 编辑 | 不透明 = 保留，透明 = 重新生成。需要 `-i`。 |
-| `--input-fidelity` | `low` · `high` | — | 编辑 | 在 `gpt-image-1`/`1.5` 支持；`gpt-image-2` 会拒绝这个参数，所以 CLI 会在本地直接丢弃它。 |
+| `--input-fidelity` | `low` · `high` | — | 编辑 | GPT Image 2 和 2.5 都拒绝这个参数，所以 CLI 会在本地直接丢弃它。 |
 | `--size` | `1k` · `2k` · `4k` · `portrait` · `landscape` · `square` · `wide` · `tall` · 字面量如 `1024x1024` 等 | `1024x1024` | 两者 | 字面量必须为16像素倍数，最大边3840，比例限制3:1，像素总数介于655k–8.3M之间。 |
-| `--quality` | `auto` · `low` · `medium` · `high` | `high` | 两者 | 这是一个实用预算调节：`low` 用于便宜的草稿/大规模生成，`medium` 用于正常探索，`high` 用于最终以文本为主或面向发布的资源。 |
+| `--quality` | `auto` · `low` · `medium` · `high` · `xhigh` · `max` | `high` | 两者 | GPT Image 2.5 支持六档。`low` 用于草稿，`medium` 用于探索，`high` 用于最终资源；只有确有更高保真需求时才用 `xhigh`/`max`。旧版 GPT Image 2 不支持 `xhigh` 和 `max`。 |
 | `-n, --n` | 整数 | 1 | 两者 | 批量生成。`n>1` 时文件名后缀依次为 `_0`、`_1`、… |
-| `--background` | `auto` · `opaque` | API 默认 | 生成 | `opaque` 禁用透明度。 |
+| `--background` | `auto` · `opaque` · `transparent` | API 默认 | 生成 | GPT Image 2.5 支持透明背景；旧版 GPT Image 2 使用 `auto` 或 `opaque`。 |
 | `--moderation` | `auto` · `low` | `low` | 生成 | 这里默认用 `low`，更适合广泛探索提示词；如果你想回到更严格的 API 侧默认行为，就手动切到 `auto`。 |
 | `--format` | `png` · `jpeg` · `webp` | `png` | 两者 | 响应编码格式。 |
 | `--compression` | 0–100 | — | 两者 | 仅适用于 JPEG/WebP。 |
@@ -337,6 +337,7 @@ result = client.images.generate(
 - [`skills/gpt-image/references/gallery.md`](skills/gpt-image/references/gallery.md) — 按输出类型、风格／场景标签和相近案例选型的路由索引。分类文件开头列出必要输入和常见失败。明确且已授权的生成请求可以直接使用 CLI。
 - `skills/gpt-image/references/gallery-*.md` — 每个 category 一个文件，只在相关任务中加载，例如 [`gallery-product-and-food.md`](skills/gpt-image/references/gallery-product-and-food.md)、[`gallery-ui-ux-mockups.md`](skills/gpt-image/references/gallery-ui-ux-mockups.md)、[`gallery-research-paper-figures.md`](skills/gpt-image/references/gallery-research-paper-figures.md)。这样既能复用 Skill 的参考图库，又不会撑爆上下文。
 - 可复用模板：[科学尺度缩放图](skills/gpt-image/references/template-scientific-scale.md)、[概念字体海报](skills/gpt-image/references/template-conceptual-typography.md)、[企业画册视觉系统](skills/gpt-image/references/template-corporate-brochure.md)、[产品研发拆解板](skills/gpt-image/references/template-product-development.md)。每类包含完整提示词、输入变量、默认值、避坑说明和署名，仅按需加载。企业画册输出为栅格视觉方案。四类模板与 162 个案例分别计数。[来源与许可](skills/gpt-image/references/template-sources.md)。
+- [`skills/gpt-image/references/model-gpt-image-2.5.md`](skills/gpt-image/references/model-gpt-image-2.5.md) — Sunburst、Flare 和旧版 GPT Image 2 的模型选择、迁移说明及官方参数限制。
 - [`skills/gpt-image/references/craft.md`](skills/gpt-image/references/craft.md) — 19 节 Prompt Craft 清单，覆盖按需查阅参考、JSON/config-style Prompt、多面板排版、UI 规格、数据/图表语法、编辑不变量、参考图工作流、密集文本和分类 mini-schema。
 - [`skills/gpt-image/references/openai-cookbook.md`](skills/gpt-image/references/openai-cookbook.md) — OpenAI Cookbook 的逐字 Markdown 捕获（1004 行），包括权威的参数覆盖表和所有第4/5节用例示例。
 

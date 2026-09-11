@@ -23,12 +23,17 @@ Cross-cutting principles distilled from the full 162-prompt Gallery Atlas. Use t
 16. Dense Chinese and multilingual layouts need extra constraints
 17. Attribution and gallery metadata
 18. Safety and copyright notes
+19. GPT Image 2.5 migration
 
 ## 0. Use references when they improve the prompt
 
 For an uncertain style, incomplete brief, or prompt repair, use `gallery.md` to select an output category or one of the four reusable templates. Match output type first, then style and scene tags; read the selected file and only the nearby cases needed. Category headers supply necessary inputs and typical failures. Template files contain the full prompt, fillable variables, defaults, and attribution.
 
 A precise, authorized generation request can go directly to the existing CLI after checking its inputs. Do not require a reference tour or an extra style decision. When adapting a template, preserve the user's exact visible text, translate surrounding instructions into the requested language, and fill or remove all template slots. Ask only for missing information that materially changes the result; use stated defaults for routine design choices. A request for a prompt alone ends with the prompt.
+
+## 19. GPT Image 2.5 migration
+
+The skill defaults to `gpt-image-2.5-sunburst` for quality-sensitive work and exposes `gpt-image-2.5-flare` for speed-sensitive work. Keep the prompt, references, dimensions, output format, and quality constant for the first comparison with `gpt-image-2`; compare instruction following, identity preservation, text accuracy, unwanted changes, latency, retries, and cost before changing prompts. Read `references/model-gpt-image-2.5.md` for the model-specific parameter table and migration checklist.
 
 Fast routing examples:
 - Anime/manga or multi-character boards → No. 1–12.
