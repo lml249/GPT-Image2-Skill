@@ -4,6 +4,16 @@ Routing index for 162 numbered cases across 31 categories, plus four reusable te
 
 Match the requested output type first, then style and scene tags, then nearby cases. Each category starts with selection notes: necessary inputs, typical failures, and relevant case numbers. Read one matching file; use two or three only when a hybrid request needs them. Consult `craft.md` for the specific prompt-writing issue.
 
+## Routing tags
+
+Use the first matching output type, then refine with a style and scene tag. These labels follow the upstream style-library vocabulary while keeping this gallery's 31 focused files:
+
+- **Output types:** UI, infographic, poster, product, brand, architecture, photography, illustration, character, scene, history, document, edit, technical, research, and special use cases.
+- **Style tags:** realistic, 3D, illustration, classical, editorial, poster, product, brand, UI, charts, technical, and watercolor/ink.
+- **Scene tags:** commerce, creative, education, fashion, food, history, social, story, tech, and travel.
+
+When a request matches a tag but no focused case, use [`template-catalog-upstream.md`](template-catalog-upstream.md) for a compact fillable structure, then return to the closest gallery file for a concrete visual reference.
+
 Each `gallery-*.md` file contains full prompt text, original attribution, HTTPS image previews, and image-source links. Image links are pinned to repository revision `76fb666a1aea94c463014351429ca1fed6bcf4f4`; they work independently of the local `docs/` tree. Prompts remain readable offline. If image access fails, use the source link or text and report that the preview was not inspected. These URLs do not replace local reference files required by CLI `-i`.
 
 ## Reusable templates

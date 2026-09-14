@@ -15,6 +15,7 @@ Requires Python 3.11+ and either `gpt-image`, `uv`, or `uvx`. API calls use `OPE
 1. **Classify request**: `generate`, `edit`, `inpaint`, or `multi-reference`; identify asset type, exact text, aspect ratio, references, safety constraints, and budget/quality.
    Use `gpt-image-2.5-sunburst` by default for quality and complex edits; use `gpt-image-2.5-flare` when speed matters. Keep `gpt-image-2` only when a provider or existing workflow requires it.
 2. **Use references when helpful**: for style exploration or an uncertain prompt, open `references/gallery.md`; match the output type, then style/scene tags and nearby cases. Read the matching category or reusable template only. A precise request can go directly to the existing CLI without a gallery tour.
+   For a first 2.5-versus-legacy comparison, read `references/model-comparison-gpt-image-2.5.md` and keep the prompt, references, size, format, and quality fixed.
 3. **Refine with craft**: load `references/craft.md` for dense text, diagrams, UI, data visualization, multi-panel layouts, weak prompts, or no close gallery match.
 4. **Confer when useful**: before costly/ambiguous/high-polish calls, present 1–3 matched directions plus planned size/quality; ask at most one concise question. Skip long discussion for precise “generate now” requests.
 5. **Preflight, no side effects**: use existing CLI/skill if present. Check command availability (`command -v gpt-image`), installed tool lists when the tool manager exists, or the runtime’s own skill registry when available. Do not assume a local home path in cloud/hosted runtimes.
@@ -102,6 +103,8 @@ Surface API errors verbatim enough for debugging; exit codes: `0` success, `1` A
 - `references/craft.md`: prompt-craft checklist. Load for prompt repair, exact text, UI/data/diagram grammar, edit invariants, and multi-panel consistency.
 - `references/openai-cookbook.md`: official GPT Image 2 parameter/model semantics. Load for API behavior or legacy compatibility questions.
 - `references/model-gpt-image-2.5.md`: model selection, migration checklist, supported 2.5 parameters, and official sources. Load when choosing between Sunburst, Flare, and GPT Image 2.
+- `references/model-comparison-gpt-image-2.5.md`: four upstream 2.5 showcase records, what they actually establish, and a controlled comparison protocol. Load when evaluating model differences; the records are not a verified benchmark.
+- `references/template-catalog-upstream.md`: compact, on-demand templates absorbed from the upstream style library for UI, infographic, poster, commerce, brand, architecture, photography, character, and publishing tasks.
 
 Reference loading policy: load the smallest useful slice; never load all category files by default.
 
